@@ -1,29 +1,35 @@
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 using UnityEngine.SceneManagement;
 
 public class PopupNombre : MonoBehaviour
 {
-    public InputField inputNombre;   // arrastra el InputField del popup aquí
-    public Text textoError;          // opcional, para mostrar aviso si está vacío
+    public TMP_InputField inputNombre;  // arrastra el TMP Input Field
+    public TextMeshProUGUI textoError;  // opcional, para mostrar mensaje si está vacío
 
+    // Llamar desde el botón Confirmar
     public void Aceptar()
     {
-        string nombre = inputNombre != null ? inputNombre.text : "";
+        string nombre = inputNombre != null ? inputNombre.text.Trim() : "";
 
-        if (string.IsNullOrWhiteSpace(nombre))
+        if (string.IsNullOrEmpty(nombre))
         {
             if (textoError != null) textoError.text = "Ingresa un nombre válido.";
             return;
         }
 
-        GestorDatos.Instancia.GuardarNombre(nombre);
+        // Guardar en el GestorDatos (singleton)
+        if (GestorDatos.Instancia != null)
+            GestorDatos.Instancia.GuardarNombre(nombre);
+        else
+            PlayerPrefs.SetString("NombreJugador", nombre);
+
+        // Cargar la escena de selección (asegúrate que el nombre coincide con el de Build Settings)
         SceneManager.LoadScene("Seleccion"); // o SceneManager.LoadScene(1);
     }
 
     public void Cancelar()
     {
-        // Cierra el popup (por si quieres permitir volver atrás)
-        gameObject.SetActive(false);
+        gameObject.SetActive(false); // oculta popup sin guardar
     }
 }
