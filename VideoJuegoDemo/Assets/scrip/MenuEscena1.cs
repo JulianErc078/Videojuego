@@ -21,22 +21,28 @@ public class MenuEscena1 : MonoBehaviour
 
         // Colocar el nombre actual en el input
         inputNombre.text = GestorDatos.Instancia.ObtenerNombre();
-        SceneManager.LoadScene(0);
+        // Cerrar otros y abrir el panel de edición
+    AbrirPanel(panelEditarNombre);
     }
 
     // --- Botón Confirmar dentro del panel ---
-    public void ConfirmarNombre()
-    {
-         string nuevoNombre = inputNombre.text;
-    GestorDatos.Instancia.GuardarNombre(nuevoNombre);
+  public void ConfirmarNombre()
+{
+    string nuevoNombre = inputNombre.text;
 
-    // Mantener el prefijo "Jugador: "
-    if(textoNombreJugador != null)
+    if (!string.IsNullOrEmpty(nuevoNombre))
+    {
+        //Guarda el nombre en el GestorDatos
+        GestorDatos.Instancia.GuardarNombre(nuevoNombre);
+
+        // Refresca el texto en pantalla
         textoNombreJugador.text = "Jugador: " + nuevoNombre;
 
-    Debug.Log("Nombre actualizado a: " + nuevoNombre);
-    panelEditarNombre.SetActive(false);
+        Debug.Log("Nombre guardado: " + nuevoNombre);
     }
+
+    panelEditarNombre.SetActive(false);
+}
 
     // --- BOTÓN PROGRESO ---
     public void MostrarProgreso()
@@ -59,23 +65,29 @@ public class MenuEscena1 : MonoBehaviour
     // --- BOTÓN MANUAL ---
 
     private void AbrirPanel(GameObject panel)
-    {
-        // Cierra cualquier otro panel abierto
-        if (panelManual.activeSelf) panelManual.SetActive(false);
-        if (panelProgreso.activeSelf) panelProgreso.SetActive(false);
+{
+    // Cierra cualquier otro panel abierto, menos el que quiero abrir
+    if (panelManual.activeSelf && panelManual != panel) panelManual.SetActive(false);
+    if (panelProgreso.activeSelf && panelProgreso != panel) panelProgreso.SetActive(false);
+    if (panelEditarNombre.activeSelf && panelEditarNombre != panel) panelEditarNombre.SetActive(false);
 
-        // Abre el panel que se quiere
-        panel.SetActive(true);
-    }
+    // Abre el panel que se quiere
+    panel.SetActive(true);
+}
     public void CerrarPanel(GameObject panel)
     {
         panel.SetActive(false);
     }
+    
     public void MostrarManual()
     {
+
+        panelManual.SetActive(true);
+
         if (panelManual != null)
             panelManual.SetActive(true);
-            AbrirPanel(panelManual); 
+        AbrirPanel(panelManual);
+
 
     }
 
