@@ -37,6 +37,7 @@ public class GestorDatos : MonoBehaviour
     {
         datos.nombreJugador = string.IsNullOrWhiteSpace(nuevoNombre) ? "Invitado" : nuevoNombre.Trim();
         Guardar();
+         Debug.Log("Guardado nombre: " + datos.nombreJugador);
     }
 
     public int ObtenerPeleasGanadas() => datos.peleasGanadas;
@@ -102,7 +103,7 @@ public class GestorDatos : MonoBehaviour
         datos.peleasGanadas = PlayerPrefs.GetInt("PeleasGanadas", 0);
 
         string csvPersonajes = PlayerPrefs.GetString("Personajes", "");
-        string csvEscenarios  = PlayerPrefs.GetString("Escenarios", "");
+        string csvEscenarios = PlayerPrefs.GetString("Escenarios", "");
 
         datos.personajesDesbloqueados = new List<string>();
         datos.escenariosDesbloqueados = new List<string>();
@@ -121,6 +122,8 @@ public class GestorDatos : MonoBehaviour
         // Asegurar nombre por defecto
         if (string.IsNullOrWhiteSpace(datos.nombreJugador))
             datos.nombreJugador = "Invitado";
+            
+            Debug.Log("Cargado nombre: " + datos.nombreJugador);
     }
 
     private List<string> SplitCSV(string csv)
