@@ -9,23 +9,23 @@ public class GestorNombre : MonoBehaviour
 
     // Método que se ejecuta al dar clic en Confirmar
     public void GuardarNombre()
+{
+    string nombreJugador = inputNombre.text;
+
+    if (!string.IsNullOrEmpty(nombreJugador))
     {
-        string nombreJugador = inputNombre.text;
+        // Guardamos usando GestorDatos
+        GestorDatos.Instancia.GuardarNombre(nombreJugador);
 
-        if (!string.IsNullOrEmpty(nombreJugador))
-        {
-            // Guardamos en PlayerPrefs
-            PlayerPrefs.SetString("NombreJugador", nombreJugador);
-            PlayerPrefs.Save();
+        Debug.Log("Nombre guardado: " + nombreJugador);
 
-            Debug.Log("Nombre guardado: " + nombreJugador);
-
-            // Cambiamos a la escena 1 (selección de personaje, escenarios, botones, etc.)
-            SceneManager.LoadScene(1);
-        }
-        else
-        {
-            Debug.Log("El nombre no puede estar vacío.");
-        }
+        // Cambiamos a la escena 1
+        SceneManager.LoadScene(1);
     }
+    else
+    {
+        Debug.Log("El nombre no puede estar vacío.");
+    }
+}
+
 }

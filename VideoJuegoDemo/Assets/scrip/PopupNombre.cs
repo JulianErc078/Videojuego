@@ -20,7 +20,8 @@ public class PopupNombre : MonoBehaviour
 
         // Guardar en el GestorDatos (singleton)
         if (GestorDatos.Instancia != null)
-            GestorDatos.Instancia.GuardarNombre(nombre);
+    GestorDatos.Instancia.GuardarNombre(nombre);
+
         else
             PlayerPrefs.SetString("NombreJugador", nombre);
 

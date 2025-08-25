@@ -103,6 +103,12 @@ public class MenuEscena1 : MonoBehaviour
         // 3. Volver a Escena 0 (pantalla de ingreso de nombre)
         SceneManager.LoadScene(0);
     }
+    void Start()
+{
+    if (textoNombreJugador != null)
+        textoNombreJugador.text = "Jugador: " + GestorDatos.Instancia.ObtenerNombre();
+}
+
 
     // --- BOTÓN JUGAR ---
     public void Jugar()
