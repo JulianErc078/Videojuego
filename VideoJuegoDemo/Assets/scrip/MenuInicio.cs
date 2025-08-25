@@ -8,8 +8,19 @@ public class MenuInicio : MonoBehaviour
 
     public void Start()
     {
-        // Asegurarnos que el panel esté oculto al iniciar
-        if (panelNombre != null) panelNombre.SetActive(false);
+        // Revisa si ya existe un nombre en GestorDatos
+        if (!string.IsNullOrEmpty(GestorDatos.Instancia.ObtenerNombre()) && 
+            GestorDatos.Instancia.ObtenerNombre() != "Invitado")
+        {
+            // Si ya hay nombre guardado -> ir directo a escena 1
+            SceneManager.LoadScene(1);
+        }
+        else
+        {
+            // Si no hay nombre guardado -> mostrar panel de registro
+            if (panelNombre != null) panelNombre.SetActive(false);
+        }
+    
     }
 
     // Asignar este método al OnClick del botón Jugar
