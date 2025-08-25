@@ -6,7 +6,7 @@ public class MenuInicio : MonoBehaviour
     [Header("Referencia al panel del nombre")]
     public GameObject panelNombre; // arrastras aquí el PanelNombre desde el Hierarchy
 
-    void Start()
+    public void Start()
     {
         // Asegurarnos que el panel esté oculto al iniciar
         if (panelNombre != null) panelNombre.SetActive(false);

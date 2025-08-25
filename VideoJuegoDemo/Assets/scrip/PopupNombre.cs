@@ -25,7 +25,7 @@ public class PopupNombre : MonoBehaviour
             PlayerPrefs.SetString("NombreJugador", nombre);
 
         // Cargar la escena de selección (asegúrate que el nombre coincide con el de Build Settings)
-        SceneManager.LoadScene("Seleccion"); // o SceneManager.LoadScene(1);
+        SceneManager.LoadScene("SelectorNiveles"); // o SceneManager.LoadScene(1);
     }
 
     public void Cancelar()
