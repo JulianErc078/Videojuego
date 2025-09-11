@@ -1,0 +1,112 @@
+using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+
+public class MenuConfiguracion : MonoBehaviour
+{
+    [Header("Referencias UI")]
+    public GameObject panelFondo;
+    public GameObject submenuConfiguracion;
+    
+    [Header("Paneles Modales")]
+    public GameObject panelEditarNombre;
+    public GameObject panelProgreso;
+    public GameObject panelManual;
+    
+    [Header("Botones Submenú")]
+    public Button btnEditarNombre;
+    public Button btnProgreso;
+    public Button btnManual;
+    public Button btnReiniciar;
+
+    private void Start()
+    {
+        // Configurar listeners de los botones
+        btnEditarNombre.onClick.AddListener(MostrarEditarNombre);
+        btnProgreso.onClick.AddListener(MostrarProgreso);
+        btnManual.onClick.AddListener(MostrarManual);
+        btnReiniciar.onClick.AddListener(ReiniciarJuego);
+        
+        // Ocultar todo al inicio
+        OcultarTodo();
+    }
+
+    public void ToggleConfiguracion()
+    {
+        if (panelFondo.activeSelf)
+        {
+            OcultarTodo();
+        }
+        else
+        {
+            MostrarSubmenu();
+        }
+    }
+
+    private void MostrarSubmenu()
+    {
+        panelFondo.SetActive(true);
+        submenuConfiguracion.SetActive(true);
+        OcultarPanelesModales();
+    }
+
+    private void OcultarTodo()
+    {
+        panelFondo.SetActive(false);
+        submenuConfiguracion.SetActive(false);
+        OcultarPanelesModales();
+    }
+
+    private void OcultarPanelesModales()
+    {
+        panelEditarNombre.SetActive(false);
+        panelProgreso.SetActive(false);
+        panelManual.SetActive(false);
+    }
+
+    public void MostrarEditarNombre()
+    {
+        OcultarPanelesModales();
+        panelEditarNombre.SetActive(true);
+    }
+
+    public void MostrarProgreso()
+    {
+        OcultarPanelesModales();
+        panelProgreso.SetActive(true);
+    }
+
+    public void MostrarManual()
+    {
+        OcultarPanelesModales();
+        panelManual.SetActive(true);
+    }
+
+    public void ReiniciarJuego()
+    {
+        // Ocultar menú primero
+        OcultarTodo();
+        
+        // Llamar función de reinicio
+        MenuEscena1 menuPrincipal = FindObjectOfType<MenuEscena1>();
+        if (menuPrincipal != null)
+        {
+            menuPrincipal.ReiniciarProgreso();
+        }
+    }
+
+    public void CerrarPanelActual()
+    {
+        // Si hay un panel modal abierto, cerrarlo
+        if (panelEditarNombre.activeSelf || panelProgreso.activeSelf || panelManual.activeSelf)
+        {
+            OcultarPanelesModales();
+            MostrarSubmenu();
+        }
+        else
+        {
+            // Si no hay panel modal, cerrar todo
+            OcultarTodo();
+        }
+    }
+}

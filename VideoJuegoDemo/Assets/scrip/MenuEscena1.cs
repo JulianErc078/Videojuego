@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro; // <--- necesario para TMP_Text
+using System.Collections;
 
 
 public class MenuEscena1 : MonoBehaviour
@@ -10,8 +11,9 @@ public class MenuEscena1 : MonoBehaviour
     public GameObject panelEditarNombre;  // arrastrar PanelEditarNombre
     public TMP_InputField inputNombre;        // arrastrar InputNombre
     public TMP_Text textoNombreJugador;
+  
 
-
+    private Coroutine deteccionClicExterno;
 
     // --- BOTÓN EDITAR NOMBRE ---
     public void EditarNombre()
@@ -22,9 +24,39 @@ public class MenuEscena1 : MonoBehaviour
         // Colocar el nombre actual en el input
         inputNombre.text = GestorDatos.Instancia.ObtenerNombre();
         // Cerrar otros y abrir el panel de edición
-    AbrirPanel(panelEditarNombre);
+        AbrirPanel(panelEditarNombre);
+     if (deteccionClicExterno != null)
+        {
+            StopCoroutine(deteccionClicExterno);
+        }
+        deteccionClicExterno = StartCoroutine(DetectarClicExterno());
     }
 
+    private IEnumerator DetectarClicExterno()
+    {
+        // Esperar un frame para evitar detectar el clic que abrió el panel
+        yield return null;
+        
+        // Crear un evento temporal para detectar clics
+        while (panelEditarNombre.activeSelf)
+        {
+            // Detectar si se hace clic fuera del panel
+            if (Input.GetMouseButtonDown(0))
+            {
+                // Verificar si el clic fue fuera del panel
+                if (!RectTransformUtility.RectangleContainsScreenPoint(
+                    panelEditarNombre.GetComponent<RectTransform>(), 
+                    Input.mousePosition, 
+                    null))
+                {
+                    // El clic fue fuera del panel, cerrarlo
+                    CerrarPanel(panelEditarNombre);
+                    break;
+                }
+            }
+            yield return null;
+        }
+    }
     // --- Botón Confirmar dentro del panel ---
   public void ConfirmarNombre()
 {
