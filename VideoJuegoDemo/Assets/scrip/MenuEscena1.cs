@@ -11,7 +11,8 @@ public class MenuEscena1 : MonoBehaviour
     public GameObject panelEditarNombre;  // arrastrar PanelEditarNombre
     public TMP_InputField inputNombre;        // arrastrar InputNombre
     public TMP_Text textoNombreJugador;
-  
+    public GameObject panelConfirmationReinicio;
+
 
     private Coroutine deteccionClicExterno;
 
@@ -123,17 +124,30 @@ public class MenuEscena1 : MonoBehaviour
 
     }
 
+
     // --- BOTÓN REINICIAR ---
-    public void ReiniciarProgreso()
+    public void MostrarConfirmacionReinicio()
     {
-        // 1. Reinicia todos los datos guardados
+        if (panelConfirmationReinicio != null)
+        {
+            panelConfirmationReinicio.SetActive(true);
+            AbrirPanel(panelConfirmationReinicio);
+        }
+    }
+
+    // --- CONFIRMAR REINICIO (Sí) ---
+    public void ConfirmarReinicio()
+    {
         GestorDatos.Instancia.ReiniciarTodo();
-
-        // 2. Debug opcional
-        Debug.Log("Juego reiniciado: nombre, peleas y desbloqueos borrados.");
-
-        // 3. Volver a Escena 0 (pantalla de ingreso de nombre)
+        Debug.Log("Juego reiniciado: todos los datos borrados.");
+        CerrarPanel(panelConfirmationReinicio);
         SceneManager.LoadScene(0);
+    }
+
+    // --- CANCELAR REINICIO (No) ---
+    public void CancelarReinicio()
+    {
+        CerrarPanel(panelConfirmationReinicio);
     }
     void Start()
 {

@@ -83,6 +83,8 @@ public class GestorDatos : MonoBehaviour
         Guardar();
     }
 
+
+
     // ---------- Persistencia (PlayerPrefs) ----------
 
     private void Guardar()

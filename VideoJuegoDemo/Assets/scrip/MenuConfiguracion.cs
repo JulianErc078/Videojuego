@@ -25,7 +25,7 @@ public class MenuConfiguracion : MonoBehaviour
         btnEditarNombre.onClick.AddListener(MostrarEditarNombre);
         btnProgreso.onClick.AddListener(MostrarProgreso);
         btnManual.onClick.AddListener(MostrarManual);
-        btnReiniciar.onClick.AddListener(ReiniciarJuego);
+  
         
         // Ocultar todo al inicio
         OcultarTodo();
@@ -82,16 +82,16 @@ public class MenuConfiguracion : MonoBehaviour
         panelManual.SetActive(true);
     }
 
-    public void ReiniciarJuego()
+    public void MostrarConfirmacionReinicio()
     {
         // Ocultar menú primero
         OcultarTodo();
-        
+
         // Llamar función de reinicio
-        MenuEscena1 menuPrincipal = FindObjectOfType<MenuEscena1>();
+        MenuEscena1 menuPrincipal = FindFirstObjectByType<MenuEscena1>();
         if (menuPrincipal != null)
         {
-            menuPrincipal.ReiniciarProgreso();
+            menuPrincipal.MostrarConfirmacionReinicio();
         }
     }
 
