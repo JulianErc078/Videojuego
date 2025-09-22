@@ -88,10 +88,10 @@ public class MenuEscena1 : MonoBehaviour
             texto.text = $"Jugador: {GestorDatos.Instancia.ObtenerNombre()}\n" +
                  $"Victorias: {GestorDatos.Instancia.ObtenerPeleasGanadas()}\n" +
                  $"Personajes desbloqueados: {string.Join(", ", GestorDatos.Instancia.datos.personajesDesbloqueados)}\n" +
-                 $"Escenarios desbloqueados: {string.Join(", ", GestorDatos.Instancia.datos.escenariosDesbloqueados)}";
-                 
-            
-        AbrirPanel(panelProgreso);     
+                 $"Rivales desbloqueados: {string.Join(", ", GestorDatos.Instancia.datos.rivalesDesbloqueados)}";
+
+
+            AbrirPanel(panelProgreso);     
         }
     }
 

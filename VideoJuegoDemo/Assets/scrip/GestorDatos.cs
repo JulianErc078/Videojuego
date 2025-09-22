@@ -7,7 +7,7 @@ public class DatosJugador
     public string nombreJugador = "Invitado";
     public int peleasGanadas = 0;
     public List<string> personajesDesbloqueados = new List<string>();
-    public List<string> escenariosDesbloqueados = new List<string>();
+    public List<int> rivalesDesbloqueados = new List<int>();
 }
 
 public class GestorDatos : MonoBehaviour
@@ -49,7 +49,6 @@ public class GestorDatos : MonoBehaviour
     }
 
     public bool PersonajeDesbloqueado(string id) => datos.personajesDesbloqueados.Contains(id);
-    public bool EscenarioDesbloqueado(string id) => datos.escenariosDesbloqueados.Contains(id);
 
     public void DesbloquearPersonaje(string id)
     {
@@ -60,11 +59,21 @@ public class GestorDatos : MonoBehaviour
         }
     }
 
-    public void DesbloquearEscenario(string id)
+    // Y agrega este método:
+    public bool RivalDesbloqueado(int indexRival)
     {
-        if (!datos.escenariosDesbloqueados.Contains(id))
+        // Por defecto: rival 0 siempre desbloqueado, otros según victorias
+        if (indexRival == 0) return true;
+
+        return datos.peleasGanadas >= indexRival;
+    }
+
+    // También agrega este método para desbloquear rivales:
+    public void DesbloquearRival(int indexRival)
+    {
+        if (!datos.rivalesDesbloqueados.Contains(indexRival))
         {
-            datos.escenariosDesbloqueados.Add(id);
+            datos.rivalesDesbloqueados.Add(indexRival);
             Guardar();
         }
     }
@@ -74,12 +83,11 @@ public class GestorDatos : MonoBehaviour
         PlayerPrefs.DeleteKey("NombreJugador");
         PlayerPrefs.DeleteKey("PeleasGanadas");
         PlayerPrefs.DeleteKey("Personajes");
-        PlayerPrefs.DeleteKey("Escenarios");
+        PlayerPrefs.DeleteKey("Rivales"); // CORREGIDO - comillas dobles
 
         datos = new DatosJugador();
-        // Valores por defecto (opción 2): solo URIBE y CIUDAD desbloqueados
-        datos.personajesDesbloqueados.Add("uribe");
-        datos.escenariosDesbloqueados.Add("ciudad");
+        // Solo personaje inicial desbloqueado
+        datos.personajesDesbloqueados.Add("VENECOS");
         Guardar();
     }
 
@@ -91,12 +99,11 @@ public class GestorDatos : MonoBehaviour
     {
         PlayerPrefs.SetString("NombreJugador", datos.nombreJugador);
         PlayerPrefs.SetInt("PeleasGanadas", datos.peleasGanadas);
-
-        // Guardar listas como CSV
         PlayerPrefs.SetString("Personajes", string.Join(",", datos.personajesDesbloqueados));
-        PlayerPrefs.SetString("Escenarios", string.Join(",", datos.escenariosDesbloqueados));
+        PlayerPrefs.SetString("Rivales", string.Join(",", datos.rivalesDesbloqueados));
 
         PlayerPrefs.Save();
+
     }
 
     private void Cargar()
@@ -105,22 +112,24 @@ public class GestorDatos : MonoBehaviour
         datos.peleasGanadas = PlayerPrefs.GetInt("PeleasGanadas", 0);
 
         string csvPersonajes = PlayerPrefs.GetString("Personajes", "");
-        string csvEscenarios = PlayerPrefs.GetString("Escenarios", "");
-
         datos.personajesDesbloqueados = new List<string>();
-        datos.escenariosDesbloqueados = new List<string>();
 
         // Si no hay nada guardado aún, configurar por defecto opción 2
         if (string.IsNullOrEmpty(csvPersonajes))
-            datos.personajesDesbloqueados.Add("uribe");   // personaje inicial
+            datos.personajesDesbloqueados.Add("VENECOS");   // personaje inicial
         else
             datos.personajesDesbloqueados.AddRange(SplitCSV(csvPersonajes));
 
-        if (string.IsNullOrEmpty(csvEscenarios))
-            datos.escenariosDesbloqueados.Add("ciudad");  // escenario inicial
-        else
-            datos.escenariosDesbloqueados.AddRange(SplitCSV(csvEscenarios));
-
+        string csvRivales = PlayerPrefs.GetString("Rivales", "");
+        datos.rivalesDesbloqueados = new List<int>();
+        if (!string.IsNullOrEmpty(csvRivales))
+        {
+            foreach (string id in csvRivales.Split(','))
+            {
+                if (int.TryParse(id, out int rivalId))
+                    datos.rivalesDesbloqueados.Add(rivalId);
+            }
+        }
         // Asegurar nombre por defecto
         if (string.IsNullOrWhiteSpace(datos.nombreJugador))
             datos.nombreJugador = "Invitado";
