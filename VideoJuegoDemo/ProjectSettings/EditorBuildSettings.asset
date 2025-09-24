@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SelectorNiveles.unity
     guid: d279c71f3d199cc4897f30df390d97a5
+  - enabled: 1
+    path: Assets/Scenes/EscenaPelea1.unity
+    guid: d0698b7ab85e64d4da91f8564e8d8c15
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
