@@ -5,8 +5,8 @@ MonoImporter:
   serializedVersion: 2
   defaultReferences:
   - rivalPrefab: {fileID: 5978950948466208779, guid: 3192b7d38efc8fd49aaeddd748565154, type: 3}
-  - spawnPersonaje: {fileID: 2142911377076394472, guid: 0fc201c42cc48524ab1487ba3405902c, type: 3}
-  - spawnRival: {fileID: 6719139332828941449, guid: 55c633935976b5847927e9bff892e4d1, type: 3}
+  - spawnPersonaje: {instanceID: 0}
+  - spawnRival: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

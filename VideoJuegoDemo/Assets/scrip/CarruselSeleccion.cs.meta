@@ -1,21 +1,2 @@
 fileFormatVersion: 2
 guid: 25cafa22ae14852458ccbcf8aa23f809
-MonoImporter:
-  externalObjects: {}
-  serializedVersion: 2
-  defaultReferences:
-  - contenedorPersonajes: {instanceID: 0}
-  - textoNombrePersonaje: {instanceID: 0}
-  - btnSeleccionarPersonaje: {instanceID: 0}
-  - btnIzquierda: {fileID: 4591772572742190919, guid: 1ea5b16ddb79c0c48baa5b028f9b2ac2, type: 3}
-  - btnDerecha: {fileID: 1415199641983093106, guid: f282c703805f22a45a809347fc92c532, type: 3}
-  - contenedorRivales: {instanceID: 0}
-  - textoNombreRival: {instanceID: 0}
-  - btnSeleccionarRival: {instanceID: 0}
-  - btnIzquierdaRival: {instanceID: 0}
-  - btnDerechaRival: {instanceID: 0}
-  executionOrder: 0
-  icon: {instanceID: 0}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
