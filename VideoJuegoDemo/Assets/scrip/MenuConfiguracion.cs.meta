@@ -1,2 +1,24 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 7aaa3d5023940b94faa8f5d7e651222f
+=======
+guid: 7aaa3d5023940b94faa8f5d7e651222f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - panelFondo: {instanceID: 0}
+  - submenuConfiguracion: {instanceID: 0}
+  - panelEditarNombre: {instanceID: 0}
+  - panelProgreso: {instanceID: 0}
+  - panelManual: {instanceID: 0}
+  - btnEditarNombre: {instanceID: 0}
+  - btnProgreso: {instanceID: 0}
+  - btnManual: {instanceID: 0}
+  - btnReiniciar: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+>>>>>>> parent of 7f71297 (escena aparte)

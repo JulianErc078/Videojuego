@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8d222c885ed136d43a5d63e58a822780
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - rivalPrefab: {fileID: 5978950948466208779, guid: 3192b7d38efc8fd49aaeddd748565154, type: 3}
+  - spawnPersonaje: {instanceID: 0}
+  - spawnRival: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
