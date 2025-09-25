@@ -1,7 +1,10 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: 7aaa3d5023940b94faa8f5d7e651222f
 =======
+=======
+>>>>>>> parent of da52757 (Revert "Reapply "SeleccionPersonajes"")
 guid: 7aaa3d5023940b94faa8f5d7e651222f
 MonoImporter:
   externalObjects: {}
@@ -21,4 +24,7 @@ MonoImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+<<<<<<< HEAD
 >>>>>>> parent of 7f71297 (escena aparte)
+=======
+>>>>>>> parent of da52757 (Revert "Reapply "SeleccionPersonajes"")
