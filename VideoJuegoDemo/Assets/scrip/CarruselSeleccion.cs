@@ -1,141 +1,221 @@
-using UnityEngine;
+Ôªøusing UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class CarruselSeleccion : MonoBehaviour
 {
-    [Header("ConfiguraciÛn Personajes")]
+    [Header("Panels (toggle entre selecci√≥n)")]
+    public GameObject panelPersonajes;   // Panel que contiene el carrusel de personajes
+    public GameObject panelRivales;      // Panel que contiene el carrusel de rivales
+
+    [Header("Personajes (Sprites -> UI Image)")]
+    public Sprite[] personajesSprites;
     public GameObject[] personajesPrefabs;
-    public Transform contenedorPersonajes;
-    public TextMeshProUGUI textoNombrePersonaje;
-    public Button btnSeleccionarPersonaje;
+    public Image imagenPersonaje;                     
+    public TextMeshProUGUI textoNombrePersonaje;       // TextoNombrePersonaje
     public Button btnIzquierda;
     public Button btnDerecha;
+    public Button btnSeleccionarPersonaje;
 
-    [Header("ConfiguraciÛn Rivales")]
+    [Header("Rivales (Sprites -> UI Image)")]
+    public Sprite[] rivalesSprites;
     public GameObject[] rivalesPrefabs;
-    public Transform contenedorRivales;
+    public Image imagenRival;
     public TextMeshProUGUI textoNombreRival;
-    public Button btnSeleccionarRival;
     public Button btnIzquierdaRival;
     public Button btnDerechaRival;
+    public Button btnSeleccionarRival;
 
+    [Header("Botones globales")]
+    public Button btnPelear;    // INICIAR PELEA
+    public Button btnVolver;    // VOLVER / regresar al men√∫
+
+    // Estado interno
     private int indicePersonajeActual = 0;
     private int indiceRivalActual = 0;
-    private GameObject personajeActualInstancia;
-    private GameObject rivalActualInstancia;
+    private bool personajeSeleccionado = false;
+    private bool rivalSeleccionado = false;
+    private bool isSelectingPersonaje = true; // true = navegando personajes, false = navegando rivales
 
     void Start()
     {
-        InicializarCarrusel();
-        ActualizarBotones();
-    }
+        // Listeners de botones (UI)
+        if (btnIzquierda != null) btnIzquierda.onClick.AddListener(() => CambiarPersonaje(-1));
+        if (btnDerecha != null) btnDerecha.onClick.AddListener(() => CambiarPersonaje(1));
+        if (btnSeleccionarPersonaje != null) btnSeleccionarPersonaje.onClick.AddListener(SeleccionarPersonaje);
 
-    void InicializarCarrusel()
-    {
-        // Configurar listeners de botones
-        btnIzquierda.onClick.AddListener(() => CambiarPersonaje(-1));
-        btnDerecha.onClick.AddListener(() => CambiarPersonaje(1));
-        btnIzquierdaRival.onClick.AddListener(() => CambiarRival(-1));
-        btnDerechaRival.onClick.AddListener(() => CambiarRival(1));
-        btnSeleccionarPersonaje.onClick.AddListener(SeleccionarPersonaje);
-        btnSeleccionarRival.onClick.AddListener(SeleccionarRival);
+        if (btnIzquierdaRival != null) btnIzquierdaRival.onClick.AddListener(() => CambiarRival(-1));
+        if (btnDerechaRival != null) btnDerechaRival.onClick.AddListener(() => CambiarRival(1));
+        if (btnSeleccionarRival != null) btnSeleccionarRival.onClick.AddListener(SeleccionarRival);
 
-        // Mostrar primer personaje y rival
+        if (btnPelear != null) btnPelear.onClick.AddListener(IniciarPelea);
+        if (btnVolver != null) btnVolver.onClick.AddListener(VolverMenu);
+
+        // Estado inicial de UI
+        if (panelPersonajes != null) panelPersonajes.SetActive(true);
+        if (panelRivales != null) panelRivales.SetActive(false);
+        if (btnPelear != null) btnPelear.interactable = false;
+
+        // Mostrar primeros elementos
         MostrarPersonaje(0);
         MostrarRival(0);
     }
 
+    void Update()
+    {
+        // Navegaci√≥n por teclado (opcional pero √∫til)
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            if (isSelectingPersonaje) CambiarPersonaje(-1); else CambiarRival(-1);
+        }
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            if (isSelectingPersonaje) CambiarPersonaje(1); else CambiarRival(1);
+        }
+        if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
+        {
+            if (isSelectingPersonaje) SeleccionarPersonaje(); else SeleccionarRival();
+        }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            // Si estamos en selecci√≥n de rivales, volver a personajes (cancelar)
+            if (!isSelectingPersonaje)
+            {
+                // volver a selecci√≥n de personajes
+                isSelectingPersonaje = true;
+                if (panelRivales != null) panelRivales.SetActive(false);
+                if (panelPersonajes != null) panelPersonajes.SetActive(true);
+                rivalSeleccionado = false;
+                if (btnPelear != null) btnPelear.interactable = false;
+            }
+            else
+            {
+                VolverMenu();
+            }
+        }
+    }
+
+    // Cambia el √≠ndice y muestra el sprite correspondiente (personajes)
+    public void CambiarPersonaje(int direccion)
+    {
+        if (personajesSprites == null || personajesSprites.Length == 0) return;
+        indicePersonajeActual = (indicePersonajeActual + direccion + personajesSprites.Length) % personajesSprites.Length;
+        MostrarPersonaje(indicePersonajeActual);
+    }
+
+    // Cambia el √≠ndice y muestra el sprite correspondiente (rivales)
+    public void CambiarRival(int direccion)
+    {
+        if (rivalesSprites == null || rivalesSprites.Length == 0) return;
+        indiceRivalActual = (indiceRivalActual + direccion + rivalesSprites.Length) % rivalesSprites.Length;
+        MostrarRival(indiceRivalActual);
+    }
+
+    // Actualiza la UI del personaje en pantalla
     void MostrarPersonaje(int indice)
     {
-        indicePersonajeActual = indice;
+        if (personajesSprites == null || personajesSprites.Length == 0) return;
 
-        // Destruir instancia anterior
-        if (personajeActualInstancia != null)
-            Destroy(personajeActualInstancia);
-
-        // Crear nueva instancia
-        personajeActualInstancia = Instantiate(personajesPrefabs[indice], contenedorPersonajes);
+        // Cambiar sprite y nombre
+        imagenPersonaje.sprite = personajesSprites[indice];
         textoNombrePersonaje.text = ObtenerNombrePersonaje(indice);
 
-        // Verificar si est· desbloqueado
-        bool desbloqueado = GestorDatos.Instancia.PersonajeDesbloqueado(personajesPrefabs[indice].name.ToLower());
-        btnSeleccionarPersonaje.interactable = desbloqueado;
-
-        if (!desbloqueado)
-            textoNombrePersonaje.text += " (Bloqueado)";
+        // Siempre habilitado
+        if (btnSeleccionarPersonaje != null)
+            btnSeleccionarPersonaje.interactable = true;
     }
 
+    // Actualiza la UI del rival en pantalla
     void MostrarRival(int indice)
     {
-        indiceRivalActual = indice;
-
-        if (rivalActualInstancia != null)
-            Destroy(rivalActualInstancia);
-
-        rivalActualInstancia = Instantiate(rivalesPrefabs[indice], contenedorRivales);
+        if (rivalesSprites == null || rivalesSprites.Length == 0) return;
+        imagenRival.sprite = rivalesSprites[indice];
         textoNombreRival.text = $"Rival {indice + 1}";
 
-        // Verificar si est· desbloqueado
-        bool desbloqueado = GestorDatos.Instancia.RivalDesbloqueado(indice);
-        btnSeleccionarRival.interactable = desbloqueado;
+        bool desbloqueado = true;
+        if (GestorDatos.Instancia != null)
+        {
+            desbloqueado = GestorDatos.Instancia.RivalDesbloqueado(indice);
+        }
+        if (btnSeleccionarRival != null) btnSeleccionarRival.interactable = desbloqueado;
 
-        if (!desbloqueado)
-            textoNombreRival.text += " (Bloqueado)";
+        if (!desbloqueado) textoNombreRival.text += " (Bloqueado)";
     }
 
-    void CambiarPersonaje(int direccion)
+    // Confirmar personaje -> pasa a selecci√≥n de rivales
+    void SeleccionarPersonaje()
     {
-        int nuevoIndice = (indicePersonajeActual + direccion + personajesPrefabs.Length) % personajesPrefabs.Length;
-        MostrarPersonaje(nuevoIndice);
-        ActualizarBotones();
+        personajeSeleccionado = true;
+        Debug.Log("Personaje seleccionado index: " + indicePersonajeActual);
+
+        // Guardar el personaje elegido para la pr√≥xima escena
+        PlayerPrefs.SetInt("PersonajeSeleccionado", indicePersonajeActual);
+        PlayerPrefs.Save(); // asegura que quede guardado
+
+        // Cambiar UI a rivales
+        isSelectingPersonaje = false;
+        if (panelPersonajes != null) panelPersonajes.SetActive(false);
+        if (panelRivales != null) panelRivales.SetActive(true);
+
+        // Opcional: si quieres que la navegaci√≥n por teclado empiece en el rival actual 0:
+        indiceRivalActual = 0;
+        MostrarRival(indiceRivalActual);
     }
 
-    void CambiarRival(int direccion)
+
+    // Confirmar rival -> habilita bot√≥n pelear
+    void SeleccionarRival()
     {
-        int nuevoIndice = (indiceRivalActual + direccion + rivalesPrefabs.Length) % rivalesPrefabs.Length;
-        MostrarRival(nuevoIndice);
-        ActualizarBotones();
+        rivalSeleccionado = true;
+        Debug.Log("Rival seleccionado index: " + indiceRivalActual);
+
+        // Guardar el rival elegido
+        PlayerPrefs.SetInt("RivalSeleccionado", indiceRivalActual);
+        PlayerPrefs.Save();
+
+        if (btnPelear != null)
+            btnPelear.interactable = (personajeSeleccionado && rivalSeleccionado);
     }
 
-    void ActualizarBotones()
+
+    // Iniciar pelea: guarda en PlayerPrefs y carga la escena de pelea
+    public void IniciarPelea()
     {
-        // Actualizar estado de botones de navegaciÛn
-        btnIzquierda.interactable = true;
-        btnDerecha.interactable = true;
-        btnIzquierdaRival.interactable = true;
-        btnDerechaRival.interactable = true;
+        if (personajeSeleccionado && rivalSeleccionado)
+        {
+            int rivalSeleccionadoIndex = PlayerPrefs.GetInt("RivalSeleccionado", 0);
+
+            string nombreEscena = "nombreEscena" + rivalSeleccionadoIndex;
+            Debug.Log("Cargando escena: " + nombreEscena);
+            SceneManager.LoadScene("nombreEscena");
+        }
+        else
+        {
+            Debug.LogWarning("Debes seleccionar personaje y rival antes de pelear.");
+        }
     }
 
+
+
+    // Volver al men√∫ principal o escena anterior
+    void VolverMenu()
+    {
+        SceneManager.LoadScene("SelectorNiveles");
+    }
+
+    // Puedes personalizar nombres aqu√≠ o conectarlo a una data real
     string ObtenerNombrePersonaje(int indice)
     {
-        // Puedes personalizar los nombres aquÌ
-        string[] nombres = { "Uribe", "Petro", "Santos", "Pastrana", "Gaviria", "Samper", "Betancur", "Turbay" };
+        string[] nombres = { "Personaje1", "Personaje2", "Personaje3", "Personaje4", "Personaje5", "Personaje6", "Personaje7", "Personaje8" };
         return indice < nombres.Length ? nombres[indice] : $"Personaje {indice + 1}";
     }
 
-    void SeleccionarPersonaje()
+    string ObtenerNombreRival(int indice)
     {
-        string personajeId = personajesPrefabs[indicePersonajeActual].name.ToLower();
-        Debug.Log($"Personaje seleccionado: {personajeId}");
-        // AquÌ guardas la selecciÛn para usar en la pelea
+        string[] nombresRivales = { "Rival1", "Rival2", "Rival3", "Rival4", "Rival5", "Rival6", "Rival7", "Rival8" };
+        return indice < nombresRivales.Length ? nombresRivales[indice] : $"Rival {indice + 1}";
     }
 
-    void SeleccionarRival()
-    {
-        Debug.Log($"Rival seleccionado: {indiceRivalActual}");
-        // AquÌ guardas la selecciÛn del rival
-    }
 
-    public void IniciarPelea()
-    {
-        if (btnSeleccionarPersonaje.interactable && btnSeleccionarRival.interactable)
-        {
-            // Guardar selecciones y cargar escena de pelea
-            PlayerPrefs.SetInt("PersonajeSeleccionado", indicePersonajeActual);
-            PlayerPrefs.SetInt("RivalSeleccionado", indiceRivalActual);
-            UnityEngine.SceneManagement.SceneManager.LoadScene("EscenaPelea1");
-        }
-    }
 }
