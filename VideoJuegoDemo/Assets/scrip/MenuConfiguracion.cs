@@ -12,12 +12,16 @@ public class MenuConfiguracion : MonoBehaviour
     public GameObject panelEditarNombre;
     public GameObject panelProgreso;
     public GameObject panelManual;
+
+    public GameObject panelSeleccion;
     
     [Header("Botones Submenú")]
     public Button btnEditarNombre;
     public Button btnProgreso;
     public Button btnManual;
     public Button btnReiniciar;
+    public Button btnVolver;
+
 
     private void Start()
     {
@@ -25,17 +29,33 @@ public class MenuConfiguracion : MonoBehaviour
         btnEditarNombre.onClick.AddListener(MostrarEditarNombre);
         btnProgreso.onClick.AddListener(MostrarProgreso);
         btnManual.onClick.AddListener(MostrarManual);
-  
-        
+        if (btnVolver != null) btnVolver.onClick.AddListener(OnVolverPressed);
+
+
         // Ocultar todo al inicio
         OcultarTodo();
     }
 
+    public void OnVolverPressed()
+    {
+        Debug.Log("[MenuConfiguracion] btnVolver pulsado.");
+        CerrarPanelActual();
+        // Asegurar que el panelSeleccion vuelva a mostrarse
+        if (panelSeleccion != null)
+        {
+            panelSeleccion.SetActive(true);
+            Debug.Log("[MenuConfiguracion] panelSeleccion reactivado.");
+        }
+        else
+        {
+            Debug.LogWarning("[MenuConfiguracion] panelSeleccion no asignado en el inspector.");
+        }
+    }
     public void ToggleConfiguracion()
     {
         if (panelFondo.activeSelf)
         {
-            OcultarTodo();
+            CerrarPanelActual();
         }
         else
         {
@@ -45,6 +65,7 @@ public class MenuConfiguracion : MonoBehaviour
 
     private void MostrarSubmenu()
     {
+        if (panelSeleccion != null) panelSeleccion.SetActive(false); // oculta selección
         panelFondo.SetActive(true);
         submenuConfiguracion.SetActive(true);
         OcultarPanelesModales();

@@ -3060,12 +3060,10 @@ MonoBehaviour:
   panelEditarNombre: {fileID: 1976947526}
   panelProgreso: {fileID: 738338807}
   panelManual: {fileID: 1714941316}
-  panelSeleccion: {fileID: 0}
   btnEditarNombre: {fileID: 1418952203}
   btnProgreso: {fileID: 1064773711}
   btnManual: {fileID: 125558002}
   btnReiniciar: {fileID: 440021896}
-  btnVolver: {fileID: 0}
 --- !u!114 &892203201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4271,12 +4269,10 @@ MonoBehaviour:
   panelEditarNombre: {fileID: 1976947526}
   panelProgreso: {fileID: 738338807}
   panelManual: {fileID: 1714941316}
-  panelSeleccion: {fileID: 1682693783}
   btnEditarNombre: {fileID: 1418952203}
   btnProgreso: {fileID: 1064773711}
   btnManual: {fileID: 125558002}
   btnReiniciar: {fileID: 440021896}
-  btnVolver: {fileID: 1468677369}
 --- !u!114 &1365584963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8630,7 +8626,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 469438394478810911}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2092366205}
+        m_TargetAssemblyTypeName: MenuEscena1, Assembly-CSharp
+        m_MethodName: Jugar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &4680316150463505721
 GameObject:
   m_ObjectHideFlags: 0
@@ -9627,7 +9635,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2857541790674278488}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2092366205}
+        m_TargetAssemblyTypeName: MenuEscena1, Assembly-CSharp
+        m_MethodName: Jugar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!224 &7968282118824296440
 RectTransform:
   m_ObjectHideFlags: 0

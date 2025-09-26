@@ -131,7 +131,7 @@ public class CarruselSeleccion : MonoBehaviour
     {
         if (rivalesSprites == null || rivalesSprites.Length == 0) return;
         imagenRival.sprite = rivalesSprites[indice];
-        textoNombreRival.text = $"Rival {indice + 1}";
+        textoNombreRival.text = ObtenerNombreRival(indice);
 
         bool desbloqueado = true;
         if (GestorDatos.Instancia != null)
@@ -207,13 +207,13 @@ public class CarruselSeleccion : MonoBehaviour
     // Puedes personalizar nombres aquí o conectarlo a una data real
     string ObtenerNombrePersonaje(int indice)
     {
-        string[] nombres = { "Personaje1", "Personaje2", "Personaje3", "Personaje4", "Personaje5", "Personaje6", "Personaje7", "Personaje8" };
+        string[] nombres = { "FidelCastro-Cuba", "SalvadorAllende-Chile", "AlanGarcia-Peru", "HugoChavez-Venezuela", "JuanPeron-Argentina", "GetulioVargas-Brasil", "JoseMujica-Uruguay", "EmmanuelMacron-Francia" };
         return indice < nombres.Length ? nombres[indice] : $"Personaje {indice + 1}";
     }
 
     string ObtenerNombreRival(int indice)
     {
-        string[] nombresRivales = { "Rival1", "Rival2", "Rival3", "Rival4", "Rival5", "Rival6", "Rival7", "Rival8" };
+        string[] nombresRivales = { "UribeVelez-Colombia", "ClaudiaSheinbaum-Mexico", "DiomayeFaye-Senegal", "NayibBukele-Salvador", "VladimirPutin-Rusia", "DonaldTrump-EEUU", "XiJinping-China", "OsamaBin-Saudi" };
         return indice < nombresRivales.Length ? nombresRivales[indice] : $"Rival {indice + 1}";
     }
 
