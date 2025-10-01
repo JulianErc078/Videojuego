@@ -12,7 +12,7 @@ public class CarruselSeleccion : MonoBehaviour
     [Header("Personajes (Sprites -> UI Image)")]
     public Sprite[] personajesSprites;
     public GameObject[] personajesPrefabs;
-    public Image imagenPersonaje;                     
+    public Image imagenPersonaje;
     public TextMeshProUGUI textoNombrePersonaje;       // TextoNombrePersonaje
     public Button btnIzquierda;
     public Button btnDerecha;
@@ -40,6 +40,7 @@ public class CarruselSeleccion : MonoBehaviour
 
     void Start()
     {
+        Debug.Log("🚀 Script cargado");
         // Listeners de botones (UI)
         if (btnIzquierda != null) btnIzquierda.onClick.AddListener(() => CambiarPersonaje(-1));
         if (btnDerecha != null) btnDerecha.onClick.AddListener(() => CambiarPersonaje(1));
@@ -186,9 +187,30 @@ public class CarruselSeleccion : MonoBehaviour
         {
             int rivalSeleccionadoIndex = PlayerPrefs.GetInt("RivalSeleccionado", 0);
 
-            string nombreEscena = "nombreEscena" + rivalSeleccionadoIndex;
+            // Verificar si el rival está desbloqueado
+            bool desbloqueado = true;
+            if (GestorDatos.Instancia != null)
+            {
+                desbloqueado = GestorDatos.Instancia.RivalDesbloqueado(rivalSeleccionadoIndex);
+            }
+
+            if (!desbloqueado)
+            {
+                Debug.LogWarning("Rival bloqueado. No puedes pelear contra él.");
+                return;
+            }
+
+            // Guardar confirmación final
+            PlayerPrefs.SetInt("PersonajeSeleccionado", indicePersonajeActual);
+            PlayerPrefs.SetInt("RivalSeleccionado", indiceRivalActual);
+            PlayerPrefs.Save();
+
+            Debug.Log($"Iniciando pelea: Personaje {indicePersonajeActual} vs Rival {indiceRivalActual}");
+
+            // Cargar la escena del rival seleccionado
+            string nombreEscena = "EscenaRival" + rivalSeleccionadoIndex;
             Debug.Log("Cargando escena: " + nombreEscena);
-            SceneManager.LoadScene("nombreEscena");
+            SceneManager.LoadScene(nombreEscena);
         }
         else
         {

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8065449167414883846}
   - component: {fileID: 4863645995355197604}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Rival5
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -37,7 +37,7 @@ public class GestorDatos : MonoBehaviour
     {
         datos.nombreJugador = string.IsNullOrWhiteSpace(nuevoNombre) ? "Invitado" : nuevoNombre.Trim();
         Guardar();
-         Debug.Log("Guardado nombre: " + datos.nombreJugador);
+        Debug.Log("Guardado nombre: " + datos.nombreJugador);
     }
 
     public int ObtenerPeleasGanadas() => datos.peleasGanadas;
@@ -119,14 +119,14 @@ public class GestorDatos : MonoBehaviour
 
         if (string.IsNullOrEmpty(csvPersonajes))
         {
-            datos.personajesDesbloqueados.Add("Personaje1");
-            datos.personajesDesbloqueados.Add("Personaje2");
-            datos.personajesDesbloqueados.Add("Personaje3");
-            datos.personajesDesbloqueados.Add("Personaje4");
-            datos.personajesDesbloqueados.Add("Personaje5");
-            datos.personajesDesbloqueados.Add("Personaje6");
-            datos.personajesDesbloqueados.Add("Personaje7");
-            datos.personajesDesbloqueados.Add("Personaje8");
+            datos.personajesDesbloqueados.Add("FidelCastro-Cuba");
+            datos.personajesDesbloqueados.Add("SalvadorAllende-Chile");
+            datos.personajesDesbloqueados.Add("AlanGarcia-Peru");
+            datos.personajesDesbloqueados.Add("HugoChavez-Venezuela");
+            datos.personajesDesbloqueados.Add("JuanPeron-Argentina");
+            datos.personajesDesbloqueados.Add("GetulioVargas-Brasil");
+            datos.personajesDesbloqueados.Add("JoseMujica-Uruguay");
+            datos.personajesDesbloqueados.Add("EmmanuelMacron-Francia");
         }
         else
         {

@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3603439701340517522}
   - component: {fileID: 156738263623430406}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Personaje2
-  m_TagString: Untagged
+  m_TagString: Jugador
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
