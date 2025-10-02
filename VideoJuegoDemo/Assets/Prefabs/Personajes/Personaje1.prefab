@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8728232730905800693}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: PuntoGolpe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: -8383439687221463948}
   - component: {fileID: 1176346254911423945}
   - component: {fileID: -8465297561343682877}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Personaje1
   m_TagString: Jugador
   m_Icon: {fileID: 0}
