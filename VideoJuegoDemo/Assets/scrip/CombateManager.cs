@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using TMPro;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -12,6 +13,10 @@ public class CombateManager : MonoBehaviour
 
     public Image barraVidaJugador; // UI Image fill (opcional)
     public Image barraVidaRival;   // UI Image fill (opcional)
+
+    public GameObject panelResultado;
+    public TextMeshProUGUI textoResultado;
+    public Button btnVolver;
 
     // instancias actuales
     private GameObject pjInst;
@@ -69,6 +74,11 @@ public class CombateManager : MonoBehaviour
         {
             Debug.LogError("Índice de rival inválido");
         }
+        if (panelResultado != null)
+            panelResultado.SetActive(false);
+
+        if (btnVolver != null)
+            btnVolver.onClick.AddListener(() => SceneManager.LoadScene("SelectorNiveles"));
     }
 
 
@@ -89,8 +99,14 @@ public class CombateManager : MonoBehaviour
         if (muerto == luchadorRival)
         {
             Debug.Log("Jugador ganó la pelea!");
-            if (GestorDatos.Instancia != null) GestorDatos.Instancia.SumarVictoria(); // desbloquear siguiente rival
+            int rivalIndex = PlayerPrefs.GetInt("RivalSeleccionado", 0);
             // aquí puedes mostrar UI de victoria o cargar escena
+
+            if (GestorDatos.Instancia != null)
+            {
+                GestorDatos.Instancia.SumarVictoria();
+                GestorDatos.Instancia.DesbloquearSiguienteRival(rivalIndex);
+            }
         }
         else if (muerto == luchadorJugador)
         {
@@ -100,8 +116,34 @@ public class CombateManager : MonoBehaviour
 
         // opcional: detener IA/movimientos
         // ejemplo: desactivar scripts
-        if (luchadorJugador != null) luchadorJugador.enabled = false;
-        if (luchadorRival != null) luchadorRival.enabled = false;
+        if (luchadorJugador != null)
+        {
+            luchadorJugador.enabled = false;
+            var control = luchadorJugador.GetComponent<ControlJugador>();
+            if (control) control.enabled = false;
+        }
+
+        if (luchadorRival != null)
+        {
+            luchadorRival.enabled = false;
+            var ia = luchadorRival.GetComponent<RivalIA>();
+            if (ia) ia.enabled = false;
+        }
+
+        if (panelResultado != null && textoResultado != null)
+        {
+            panelResultado.SetActive(true);
+
+            if (muerto == luchadorRival)
+            {
+                textoResultado.text = "🎉 ¡Ganaste!";
+                GestorDatos.Instancia?.SumarVictoria();
+            }
+            else if (muerto == luchadorJugador)
+            {
+                textoResultado.text = "💀 Perdiste...";
+            }
+        }
     }
 
     private void OnDestroy()

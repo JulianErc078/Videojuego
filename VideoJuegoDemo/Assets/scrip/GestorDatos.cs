@@ -47,8 +47,8 @@ public class GestorDatos : MonoBehaviour
         datos.peleasGanadas++;
 
         // Desbloquear siguiente rival (ej: si tienes 5 rivales)
-        int siguienteRival = datos.peleasGanadas;
-        DesbloquearRival(siguienteRival);
+        Debug.Log("Victoria sumada. Total: " + datos.peleasGanadas);
+        
 
         Guardar();
     }
@@ -68,7 +68,7 @@ public class GestorDatos : MonoBehaviour
     public bool RivalDesbloqueado(int indexRival)
     {
         if (indexRival == 0) return true; // el primero siempre
-        return datos.peleasGanadas >= indexRival;
+        return datos.rivalesDesbloqueados.Contains(indexRival);
     }
 
     // También agrega este método para desbloquear rivales:
@@ -107,6 +107,26 @@ public class GestorDatos : MonoBehaviour
 
         PlayerPrefs.Save();
 
+    }
+
+    public void DesbloquearSiguienteRival(int rivalActual)
+    {
+        int siguiente = rivalActual + 1;
+
+        // Validar rango
+        if (siguiente < 8) // suponiendo que tienes 8 rivales
+        {
+            if (!datos.rivalesDesbloqueados.Contains(siguiente))
+            {
+                datos.rivalesDesbloqueados.Add(siguiente);
+                Guardar();
+                Debug.Log($"✅ Rival {siguiente} desbloqueado!");
+            }
+            else
+            {
+                Debug.Log($"ℹ Rival {siguiente} ya estaba desbloqueado.");
+            }
+        }
     }
 
     private void Cargar()

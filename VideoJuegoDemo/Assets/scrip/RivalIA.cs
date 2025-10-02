@@ -45,6 +45,12 @@ public class RivalIA : MonoBehaviour
                 nextAttackTime = Time.time + tiempoEntreAtaques;
             }
         }
+        // Limitar en X
+        float minX = -8f;
+        float maxX = 8f;
+        Vector3 pos = transform.position;
+        pos.x = Mathf.Clamp(pos.x, minX, maxX);
+        transform.position = pos;
     }
 
     void Atacar()

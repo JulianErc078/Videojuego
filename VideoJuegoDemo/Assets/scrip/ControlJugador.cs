@@ -26,6 +26,11 @@ public class ControlJugador : MonoBehaviour
         float h = Input.GetAxisRaw("Horizontal");
         if (h != 0) transform.Translate(Vector2.right * h * velocidad * Time.deltaTime);
 
+        float minX = -8f; // límite izquierdo
+        float maxX = 8f;  // límite derecho
+        Vector3 pos = transform.position;
+        pos.x = Mathf.Clamp(pos.x, minX, maxX);
+        transform.position = pos;
         // Ataque
         if (!atacando && Input.GetKeyDown(KeyCode.Space))
             StartCoroutine(DoAttack());
