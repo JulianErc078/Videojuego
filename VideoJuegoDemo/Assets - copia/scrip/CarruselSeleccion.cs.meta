@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 25cafa22ae14852458ccbcf8aa23f809
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - panelPersonajes: {fileID: 8110311695833111999, guid: f62b2440c5b7f7e4aa20f7bdf15ac4cf, type: 3}
+  - panelRivales: {instanceID: 0}
+  - imagenPersonaje: {instanceID: 0}
+  - textoNombrePersonaje: {instanceID: 0}
+  - btnIzquierda: {instanceID: 0}
+  - btnDerecha: {instanceID: 0}
+  - btnSeleccionarPersonaje: {instanceID: 0}
+  - imagenRival: {instanceID: 0}
+  - textoNombreRival: {instanceID: 0}
+  - btnIzquierdaRival: {instanceID: 0}
+  - btnDerechaRival: {instanceID: 0}
+  - btnSeleccionarRival: {instanceID: 0}
+  - btnPelear: {instanceID: 0}
+  - btnVolver: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

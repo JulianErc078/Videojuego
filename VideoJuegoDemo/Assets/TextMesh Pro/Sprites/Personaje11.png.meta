@@ -1,0 +1,893 @@
+fileFormatVersion: 2
+guid: f1ac58cfa0f2f814580c972b309721c5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5634557665325453732
+    second: Personaje11_0
+  - first:
+      213: -2781099550076346229
+    second: Personaje11_1
+  - first:
+      213: -3951750623740150084
+    second: Personaje11_2
+  - first:
+      213: -6068704684278116444
+    second: Personaje11_3
+  - first:
+      213: -3995390345803736545
+    second: Personaje11_4
+  - first:
+      213: -7500708847103522892
+    second: Personaje11_5
+  - first:
+      213: -1860973219280881384
+    second: Personaje11_6
+  - first:
+      213: 5552699606064954845
+    second: Personaje11_7
+  - first:
+      213: -8818482585918468260
+    second: Personaje11_8
+  - first:
+      213: 7824412692133143017
+    second: Personaje11_9
+  - first:
+      213: 4253117999757759765
+    second: Personaje11_10
+  - first:
+      213: -1862285701813115711
+    second: Personaje11_11
+  - first:
+      213: -6982558050956229043
+    second: Personaje11_12
+  - first:
+      213: 6975573264626123860
+    second: Personaje11_13
+  - first:
+      213: -779676476698141043
+    second: Personaje11_14
+  - first:
+      213: 6714589545814185343
+    second: Personaje11_15
+  - first:
+      213: -5273219653088002277
+    second: Personaje11_16
+  - first:
+      213: -9076567348937305742
+    second: Personaje11_17
+  - first:
+      213: 643533588877461545
+    second: Personaje11_18
+  - first:
+      213: 7854139003002822291
+    second: Personaje11_19
+  - first:
+      213: 372407510827861245
+    second: Personaje11_20
+  - first:
+      213: -5163069257892678583
+    second: Personaje11_21
+  - first:
+      213: 3468167821599504580
+    second: Personaje11_22
+  - first:
+      213: 7340702017399922267
+    second: Personaje11_23
+  - first:
+      213: 4434881381748048186
+    second: Personaje11_24
+  - first:
+      213: -2450812376424191110
+    second: Personaje11_25
+  - first:
+      213: -1255964192767903271
+    second: Personaje11_26
+  - first:
+      213: 4699967663928408932
+    second: Personaje11_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Personaje11_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 591
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e62d318a70ec1b0800000000000000
+      internalID: -5634557665325453732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje11_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 514
+        width: 46
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8063b0b1bc8769d0800000000000000
+      internalID: -2781099550076346229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje11_2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 514
+        width: 51
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe3a07bebf8829c0800000000000000
+      internalID: -3951750623740150084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje11_3
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 515
+        width: 58
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af8ad63e31a7cba0800000000000000
+      internalID: -6068704684278116444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje11_4
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 516
+        width: 55
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ad75326a58d88c0800000000000000
+      internalID: -3995390345803736545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje11_5
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 513
+        width: 54
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b7c3c44b0128e790800000000000000
+      internalID: -7500708847103522892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje11_6
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 494
+        width: 40
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8197f3887be7c26e0800000000000000
+      internalID: -1860973219280881384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje11_7
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 414
+        width: 44
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dddf3fb4fd62f0d40800000000000000
+      internalID: 5552699606064954845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje11_8
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 415
+        width: 54
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f8c587fc47e9580800000000000000
+      internalID: -8818482585918468260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje11_9
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 414
+        width: 57
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e167a253e5e59c60800000000000000
+      internalID: 7824412692133143017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje11_10
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 413
+        width: 54
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 515916b694c160b30800000000000000
+      internalID: 4253117999757759765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje11_11
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 415
+        width: 58
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c4e3216505d726e0800000000000000
+      internalID: -1862285701813115711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje11_12
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 395
+        width: 39
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46c535a278f81f90800000000000000
+      internalID: -6982558050956229043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje11_13
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 317
+        width: 43
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45480ce0de63ec060800000000000000
+      internalID: 6975573264626123860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje11_14
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 318
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8edda610680e25f0800000000000000
+      internalID: -779676476698141043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje11_15
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 317
+        width: 59
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f755ec2dd930f2d50800000000000000
+      internalID: 6714589545814185343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje11_16
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 295
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1fb41b0aa2c1d6b0800000000000000
+      internalID: -5273219653088002277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje11_17
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 214
+        width: 55
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 271deaaf51e890280800000000000000
+      internalID: -9076567348937305742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje11_18
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 214
+        width: 90
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 928c216b36a4ee800800000000000000
+      internalID: 643533588877461545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje11_19
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 214
+        width: 62
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e168a6fc18ffc60800000000000000
+      internalID: 7854139003002822291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje11_20
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 294
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4059278ae0b2500800000000000000
+      internalID: 372407510827861245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje11_21
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 195
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94431947dd71958b0800000000000000
+      internalID: -5163069257892678583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje11_22
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 121
+        width: 57
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c8f0e33248612030800000000000000
+      internalID: 3468167821599504580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje11_23
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 121
+        width: 57
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e9d1597996fd560800000000000000
+      internalID: 7340702017399922267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje11_24
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 196
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a310614ae1ddb8d30800000000000000
+      internalID: 4434881381748048186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje11_25
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 125
+        width: 61
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7bea1ce027fcfdd0800000000000000
+      internalID: -2450812376424191110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje11_26
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 101
+        width: 32
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d97577983be19ee0800000000000000
+      internalID: -1255964192767903271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje11_27
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 20
+        width: 58
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b764850b3a93140800000000000000
+      internalID: 4699967663928408932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje11_28
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 33
+        width: 108
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38bfbefbc3d7c64db19ce21115711a5
+      internalID: -797563211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje11_29
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 30
+        width: 127
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e61a8e260f3394db42b2110153f501
+      internalID: -1732854909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b7a28293c3e71ff47b06b7d35b5f35aa
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":6.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Personaje11_0: -5634557665325453732
+      Personaje11_1: -2781099550076346229
+      Personaje11_10: 4253117999757759765
+      Personaje11_11: -1862285701813115711
+      Personaje11_12: -6982558050956229043
+      Personaje11_13: 6975573264626123860
+      Personaje11_14: -779676476698141043
+      Personaje11_15: 6714589545814185343
+      Personaje11_16: -5273219653088002277
+      Personaje11_17: -9076567348937305742
+      Personaje11_18: 643533588877461545
+      Personaje11_19: 7854139003002822291
+      Personaje11_2: -3951750623740150084
+      Personaje11_20: 372407510827861245
+      Personaje11_21: -5163069257892678583
+      Personaje11_22: 3468167821599504580
+      Personaje11_23: 7340702017399922267
+      Personaje11_24: 4434881381748048186
+      Personaje11_25: -2450812376424191110
+      Personaje11_26: -1255964192767903271
+      Personaje11_27: 4699967663928408932
+      Personaje11_28: -797563211
+      Personaje11_29: -1732854909
+      Personaje11_3: -6068704684278116444
+      Personaje11_4: -3995390345803736545
+      Personaje11_5: -7500708847103522892
+      Personaje11_6: -1860973219280881384
+      Personaje11_7: 5552699606064954845
+      Personaje11_8: -8818482585918468260
+      Personaje11_9: 7824412692133143017
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
