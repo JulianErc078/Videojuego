@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/EscenaRival0.unity
     guid: 7e64130e6fff66b4baf0838e6a10b4d6
   - enabled: 0
-    path: Assets/Scenes/EscenaRival01.unity
+    path: Assets/Scenes/EscenaRival3.unity
     guid: d0698b7ab85e64d4da91f8564e8d8c15
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity

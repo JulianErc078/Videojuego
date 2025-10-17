@@ -2,6 +2,8 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using System.Collections;
+
 
 public class CombateManager : MonoBehaviour
 {
@@ -106,6 +108,7 @@ public class CombateManager : MonoBehaviour
             {
                 GestorDatos.Instancia.SumarVictoria();
                 GestorDatos.Instancia.DesbloquearSiguienteRival(rivalIndex);
+                Time.timeScale = 0f;
             }
         }
         else if (muerto == luchadorJugador)
@@ -119,8 +122,8 @@ public class CombateManager : MonoBehaviour
         if (luchadorJugador != null)
         {
             luchadorJugador.enabled = false;
-            var control = luchadorJugador.GetComponent<ControlJugador>();
-            if (control) control.enabled = false;
+            var controlJugador = luchadorJugador.GetComponent<ControlJugador>();
+            if (controlJugador != null) controlJugador.enabled = false;
         }
 
         if (luchadorRival != null)
@@ -136,11 +139,15 @@ public class CombateManager : MonoBehaviour
 
             if (muerto == luchadorRival)
             {
+                Debug.Log("🎉 Jugador ganó!");
+                int rivalIndex = PlayerPrefs.GetInt("RivalSeleccionado", 0);
                 textoResultado.text = "🎉 ¡Ganaste!";
                 GestorDatos.Instancia?.SumarVictoria();
             }
             else if (muerto == luchadorJugador)
             {
+                Debug.Log("💀 Jugador perdió!");
+                StartCoroutine(FinalizarPelea(false));
                 textoResultado.text = "💀 Perdiste...";
             }
         }
@@ -151,4 +158,19 @@ public class CombateManager : MonoBehaviour
         if (luchadorJugador != null) luchadorJugador.OnDeath -= OnLuchadorMuere;
         if (luchadorRival != null) luchadorRival.OnDeath -= OnLuchadorMuere;
     }
+
+    IEnumerator FinalizarPelea(bool ganoJugador)
+    {
+        // Esperar un poco para dejar que la animación de morir se vea
+        yield return new WaitForSeconds(1.2f);
+
+        Time.timeScale = 0f;
+
+        if (panelResultado != null)
+        {
+            panelResultado.SetActive(true);
+            textoResultado.text = ganoJugador ? "🎉 ¡Ganaste!" : "💀 Perdiste...";
+        }
+    }
+
 }

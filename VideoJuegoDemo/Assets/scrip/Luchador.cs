@@ -9,6 +9,7 @@ public class Luchador : MonoBehaviour
     [HideInInspector] public int vidaActual;
 
     public Animator animator;
+    private bool muerto = false;
 
     // Eventos
     public event Action<Luchador> OnDeath;
@@ -22,6 +23,8 @@ public class Luchador : MonoBehaviour
 
     public void RecibirDanio(int cantidad)
     {
+        if (muerto) return; 
+
         vidaActual -= cantidad;
         if (vidaActual < 0) vidaActual = 0;
 
@@ -36,10 +39,33 @@ public class Luchador : MonoBehaviour
 
     void Morir()
     {
-        if (animator != null) animator.SetTrigger("Morir");
+        if (muerto) return;
+        muerto = true;
+
+        Debug.Log($"{name} ha muerto");
+
+        if (animator != null)
+        {
+            animator.SetBool("Correr", false);
+            animator.SetTrigger("Morir");
+        }
+
+        //Desactivar colisiones y físicas
+        var col = GetComponent<Collider2D>();
+        if (col) col.enabled = false;
+
+        //Detener IA o control del jugador
+        var control = GetComponent<ControlJugador>();
+        if (control != null) control.enabled = false;
+
+        var ia = GetComponent<RivalIA>();
+        if (ia != null) ia.enabled = false;
+
+        //Invocar evento de muerte (CombateManager lo escucha)
         OnDeath?.Invoke(this);
-        // opcional: desactivar colliders o scripts aquí
+
     }
 
-    public bool EstaVivo() => vidaActual > 0;
+
+    public bool EstaVivo() => !muerto;
 }

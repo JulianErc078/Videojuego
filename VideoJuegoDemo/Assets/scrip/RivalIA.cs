@@ -33,6 +33,14 @@ public class RivalIA : MonoBehaviour
             else return;
         }
 
+        // Detener si el jugador ya murió
+        Luchador jugador = target.GetComponent<Luchador>();
+        if (jugador != null && !jugador.EstaVivo())
+        {
+            animator.SetBool("Correr", false);
+            return;
+        }
+
         if (!luchador.EstaVivo())
         {
             animator.SetBool("Correr", false);
