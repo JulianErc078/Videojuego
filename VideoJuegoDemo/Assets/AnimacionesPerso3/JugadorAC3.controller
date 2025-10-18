@@ -96,7 +96,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: b681f6ecc8a995b409acfc02df371eb3, type: 2}
+  m_Motion: {fileID: 7400000, guid: 33b37bf4478f07946986183b5da7d9f6, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -204,7 +204,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 6de8d05d14299f14199dba04069f49aa, type: 2}
+  m_Motion: {fileID: 7400000, guid: 6804238a8b525754184c36d96e5edb6b, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -230,7 +230,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: f9c5cd65d37d4654a9718bf7b2b5fa54, type: 2}
+  m_Motion: {fileID: 7400000, guid: 68f79b0acb4e62b4c98206664f6d506b, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -242,7 +242,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: JugadorAC2
+  m_Name: JugadorAC3
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Correr
@@ -303,7 +303,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: a7de47645f136ff4587ffdb2f1524a81, type: 2}
+  m_Motion: {fileID: 7400000, guid: 23318f625ceed90499820b3c12f0477f, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -330,7 +330,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 50c1200660773334ab80fe45449c0b6d, type: 2}
+  m_Motion: {fileID: 7400000, guid: 8f7878d403438024ab84385345d4ea01, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
