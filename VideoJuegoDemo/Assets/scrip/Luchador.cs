@@ -30,7 +30,11 @@ public class Luchador : MonoBehaviour
 
         OnHealthChanged?.Invoke(vidaActual, vidaMax);
 
-        if (animator != null) animator.SetTrigger("Hit");
+        if (animator != null)
+        {
+            animator.ResetTrigger("Hit");   // evita que se quede pegado
+            animator.SetTrigger("Hit");
+        }
 
         if (vidaActual == 0)
             Morir();

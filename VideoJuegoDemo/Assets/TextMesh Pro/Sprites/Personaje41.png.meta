@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: b7e4f30888396934abade7af8b7b70fd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8642455559393761631
+    second: Personaje41_0
+  - first:
+      213: 4875039571988257774
+    second: Personaje41_1
+  - first:
+      213: 7590846267534901924
+    second: Personaje41_2
+  - first:
+      213: 1428661481331337235
+    second: Personaje41_3
+  - first:
+      213: -3070635837530080285
+    second: Personaje41_4
+  - first:
+      213: -364080045746920216
+    second: Personaje41_5
+  - first:
+      213: -8006123548778762365
+    second: Personaje41_6
+  - first:
+      213: 3636423676254060273
+    second: Personaje41_7
+  - first:
+      213: 1903154193859231635
+    second: Personaje41_8
+  - first:
+      213: 2738988354682724346
+    second: Personaje41_9
+  - first:
+      213: -6034598795204652909
+    second: Personaje41_10
+  - first:
+      213: -1169040372856739022
+    second: Personaje41_11
+  - first:
+      213: 149817746287657165
+    second: Personaje41_12
+  - first:
+      213: 7248246942751924590
+    second: Personaje41_13
+  - first:
+      213: 3544893371826560793
+    second: Personaje41_14
+  - first:
+      213: 7515282514867688378
+    second: Personaje41_15
+  - first:
+      213: 3706535342129915037
+    second: Personaje41_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Personaje41_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 527
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f59d3c4aa8b20f770800000000000000
+      internalID: 8642455559393761631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje41_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 484
+        width: 77
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb155269ae97a340800000000000000
+      internalID: 4875039571988257774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje41_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 484
+        width: 77
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a28409567a185960800000000000000
+      internalID: 7590846267534901924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje41_3
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 484
+        width: 77
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 318a9034c00a3d310800000000000000
+      internalID: 1428661481331337235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje41_4
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 484
+        width: 76
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb7f6589f8e265d0800000000000000
+      internalID: -3070635837530080285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje41_5
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 365
+        width: 92
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e4627b902782faf0800000000000000
+      internalID: -364080045746920216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje41_6
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 364
+        width: 89
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38fe627fc0984e090800000000000000
+      internalID: -8006123548778762365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje41_7
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 361
+        width: 76
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fe71f3211c277230800000000000000
+      internalID: 3636423676254060273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje41_8
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 292
+        width: 51
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f36cde7ac596a10800000000000000
+      internalID: 1903154193859231635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje41_9
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 246
+        width: 245
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff9bc49567d20620800000000000000
+      internalID: 2738988354682724346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje41_10
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 246
+        width: 65
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39093d15e5cc04ca0800000000000000
+      internalID: -6034598795204652909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje41_11
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 129
+        width: 58
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ba8c789fbb6cfe0800000000000000
+      internalID: -1169040372856739022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje41_12
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 129
+        width: 64
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc0868c4272441200800000000000000
+      internalID: 149817746287657165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje41_13
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 128
+        width: 65
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e612a0b0132f69460800000000000000
+      internalID: 7248246942751924590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje41_14
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 55
+        width: 46
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91fdb527dbdf13130800000000000000
+      internalID: 3544893371826560793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje41_15
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 18
+        width: 131
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab3946d21a5ab4860800000000000000
+      internalID: 7515282514867688378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje41_16
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 30
+        width: 156
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d94a51f6142407330800000000000000
+      internalID: 3706535342129915037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Personaje41_0: 8642455559393761631
+      Personaje41_1: 4875039571988257774
+      Personaje41_10: -6034598795204652909
+      Personaje41_11: -1169040372856739022
+      Personaje41_12: 149817746287657165
+      Personaje41_13: 7248246942751924590
+      Personaje41_14: 3544893371826560793
+      Personaje41_15: 7515282514867688378
+      Personaje41_16: 3706535342129915037
+      Personaje41_2: 7590846267534901924
+      Personaje41_3: 1428661481331337235
+      Personaje41_4: -3070635837530080285
+      Personaje41_5: -364080045746920216
+      Personaje41_6: -8006123548778762365
+      Personaje41_7: 3636423676254060273
+      Personaje41_8: 1903154193859231635
+      Personaje41_9: 2738988354682724346
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
