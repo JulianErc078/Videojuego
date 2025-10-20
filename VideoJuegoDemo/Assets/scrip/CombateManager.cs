@@ -55,6 +55,10 @@ public class CombateManager : MonoBehaviour
             Debug.LogError("Índice de personaje inválido");
         }
 
+        Debug.Log("Rivales disponibles en esta escena: " + rivalesPrefabs.Length);
+        Debug.Log("Índice rival que llegó desde PlayerPrefs: " + rivalIndex);
+
+
         // Instanciar rival
         if (rivalIndex >= 0 && rivalIndex < rivalesPrefabs.Length)
         {

@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: ec6a1e3c8394f3e4298d808d999b611d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7141337040772312705
+    second: Rival71_0
+  - first:
+      213: 5201477285189940627
+    second: Rival71_1
+  - first:
+      213: 2137500820809955617
+    second: Rival71_2
+  - first:
+      213: -6011381001220645074
+    second: Rival71_3
+  - first:
+      213: -8123787400293104359
+    second: Rival71_4
+  - first:
+      213: 7018459876321029921
+    second: Rival71_5
+  - first:
+      213: -1082373302430546623
+    second: Rival71_6
+  - first:
+      213: -5555819758336154293
+    second: Rival71_7
+  - first:
+      213: -8797314009389705937
+    second: Rival71_8
+  - first:
+      213: 4946174800680010427
+    second: Rival71_9
+  - first:
+      213: -4710546762780497028
+    second: Rival71_10
+  - first:
+      213: -903228702486423026
+    second: Rival71_11
+  - first:
+      213: -4793441220401486289
+    second: Rival71_12
+  - first:
+      213: -544269126214081509
+    second: Rival71_13
+  - first:
+      213: -2095533377110963866
+    second: Rival71_14
+  - first:
+      213: -6992528985805991312
+    second: Rival71_15
+  - first:
+      213: -296580377557390052
+    second: Rival71_16
+  - first:
+      213: 8777742526002387037
+    second: Rival71_17
+  - first:
+      213: -1173039937006618384
+    second: Rival71_18
+  - first:
+      213: -8492606471152898935
+    second: Rival71_19
+  - first:
+      213: 2128712142820184377
+    second: Rival71_20
+  - first:
+      213: -2468732649582626606
+    second: Rival71_21
+  - first:
+      213: -1586384140851636168
+    second: Rival71_22
+  - first:
+      213: 2493130787003724230
+    second: Rival71_23
+  - first:
+      213: -2133969890143491609
+    second: Rival71_24
+  - first:
+      213: 7532045422258676492
+    second: Rival71_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rival71_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 597
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18ea290c3302b1360800000000000000
+      internalID: 7141337040772312705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rival71_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 513
+        width: 65
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3957203480c5f2840800000000000000
+      internalID: 5201477285189940627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rival71_2
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 515
+        width: 77
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129bb7bebade9ad10800000000000000
+      internalID: 2137500820809955617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rival71_3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 513
+        width: 68
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f16bc34d8439ca0800000000000000
+      internalID: -6011381001220645074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rival71_4
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 488
+        width: 54
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9154cbea662824f80800000000000000
+      internalID: -8123787400293104359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rival71_5
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 406
+        width: 72
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f62767214966160800000000000000
+      internalID: 7018459876321029921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rival71_6
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 406
+        width: 75
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145c2425733aaf0f0800000000000000
+      internalID: -1082373302430546623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rival71_7
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 408
+        width: 75
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45e644ad53c5e2b0800000000000000
+      internalID: -5555819758336154293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rival71_8
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 422
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2552c4c489a9e580800000000000000
+      internalID: -8797314009389705937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rival71_9
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 302
+        width: 90
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb2458776c754a440800000000000000
+      internalID: 4946174800680010427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rival71_10
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 356
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b2a924da6c0aeb0800000000000000
+      internalID: -4710546762780497028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rival71_11
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 302
+        width: 78
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a1c55d7461773f0800000000000000
+      internalID: -903228702486423026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rival71_12
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 301
+        width: 62
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2621465b964a7db0800000000000000
+      internalID: -4793441220401486289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rival71_13
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 301
+        width: 76
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b142cc50d1e5278f0800000000000000
+      internalID: -544269126214081509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rival71_14
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 277
+        width: 51
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66983520f7b2be2e0800000000000000
+      internalID: -2095533377110963866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rival71_15
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 198
+        width: 68
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07259677feb85fe90800000000000000
+      internalID: -6992528985805991312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rival71_16
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 194
+        width: 262
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d275cc7b552ebf0800000000000000
+      internalID: -296580377557390052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rival71_17
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 248
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d585638225ec0d970800000000000000
+      internalID: 8777742526002387037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rival71_18
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 174
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8bf5f646688bfe0800000000000000
+      internalID: -1173039937006618384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rival71_19
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 90
+        width: 73
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c6fb50963342a80800000000000000
+      internalID: -8492606471152898935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rival71_20
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 90
+        width: 57
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9319bdd5a64ba8d10800000000000000
+      internalID: 2128712142820184377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rival71_21
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 90
+        width: 84
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d8f7303cbc4dbdd0800000000000000
+      internalID: -2468732649582626606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rival71_22
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 114
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 838993767080cf9e0800000000000000
+      internalID: -1586384140851636168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rival71_23
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 66
+        width: 42
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c172f9dd31699220800000000000000
+      internalID: 2493130787003724230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rival71_24
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 14
+        width: 108
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e92e90f0bd9262e0800000000000000
+      internalID: -2133969890143491609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rival71_25
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 7
+        width: 112
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c03e5d1b763378860800000000000000
+      internalID: 7532045422258676492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Rival71_0: 7141337040772312705
+      Rival71_1: 5201477285189940627
+      Rival71_10: -4710546762780497028
+      Rival71_11: -903228702486423026
+      Rival71_12: -4793441220401486289
+      Rival71_13: -544269126214081509
+      Rival71_14: -2095533377110963866
+      Rival71_15: -6992528985805991312
+      Rival71_16: -296580377557390052
+      Rival71_17: 8777742526002387037
+      Rival71_18: -1173039937006618384
+      Rival71_19: -8492606471152898935
+      Rival71_2: 2137500820809955617
+      Rival71_20: 2128712142820184377
+      Rival71_21: -2468732649582626606
+      Rival71_22: -1586384140851636168
+      Rival71_23: 2493130787003724230
+      Rival71_24: -2133969890143491609
+      Rival71_25: 7532045422258676492
+      Rival71_3: -6011381001220645074
+      Rival71_4: -8123787400293104359
+      Rival71_5: 7018459876321029921
+      Rival71_6: -1082373302430546623
+      Rival71_7: -5555819758336154293
+      Rival71_8: -8797314009389705937
+      Rival71_9: 4946174800680010427
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

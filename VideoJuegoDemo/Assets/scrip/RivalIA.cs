@@ -80,6 +80,8 @@ public class RivalIA : MonoBehaviour
 
     void Atacar()
     {
+        Debug.Log($"{name} está atacando");
+       
         animator.SetTrigger("Atacar");
         Collider2D[] cols = Physics2D.OverlapCircleAll(transform.position, distanciaAtaque, capaJugador);
         foreach (var c in cols)
