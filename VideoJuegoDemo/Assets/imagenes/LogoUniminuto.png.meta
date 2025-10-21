@@ -1,0 +1,2457 @@
+fileFormatVersion: 2
+guid: dc3ee11616b9a01478482bc73d6151a7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9101123582045965901
+    second: LogoUniminuto_0
+  - first:
+      213: 4619248949999892105
+    second: LogoUniminuto_1
+  - first:
+      213: -6760945162286961446
+    second: LogoUniminuto_2
+  - first:
+      213: 8768312662343896316
+    second: LogoUniminuto_3
+  - first:
+      213: -2577731487082999219
+    second: LogoUniminuto_4
+  - first:
+      213: -6978522657261545575
+    second: LogoUniminuto_5
+  - first:
+      213: -4227531243939332387
+    second: LogoUniminuto_6
+  - first:
+      213: 3800665175485778999
+    second: LogoUniminuto_7
+  - first:
+      213: 2873631157666633945
+    second: LogoUniminuto_8
+  - first:
+      213: 3525381912299241172
+    second: LogoUniminuto_9
+  - first:
+      213: 3905160319700110461
+    second: LogoUniminuto_10
+  - first:
+      213: -8624328847922764391
+    second: LogoUniminuto_11
+  - first:
+      213: 5267774738647970391
+    second: LogoUniminuto_12
+  - first:
+      213: 1105374472600247961
+    second: LogoUniminuto_13
+  - first:
+      213: -1857889262948554872
+    second: LogoUniminuto_14
+  - first:
+      213: 7251437780642763405
+    second: LogoUniminuto_15
+  - first:
+      213: 2076142062149493933
+    second: LogoUniminuto_16
+  - first:
+      213: 2362173197837637173
+    second: LogoUniminuto_17
+  - first:
+      213: 2913410541932849756
+    second: LogoUniminuto_18
+  - first:
+      213: -4355563413644668153
+    second: LogoUniminuto_19
+  - first:
+      213: -611052852668618271
+    second: LogoUniminuto_20
+  - first:
+      213: 5116626426274015667
+    second: LogoUniminuto_21
+  - first:
+      213: -6920845499931741169
+    second: LogoUniminuto_22
+  - first:
+      213: -4071677541408825397
+    second: LogoUniminuto_23
+  - first:
+      213: 2603614043942060818
+    second: LogoUniminuto_24
+  - first:
+      213: 3133809726688638841
+    second: LogoUniminuto_25
+  - first:
+      213: 4814509991708410120
+    second: LogoUniminuto_26
+  - first:
+      213: -3093420857697165369
+    second: LogoUniminuto_27
+  - first:
+      213: 5666423721853873197
+    second: LogoUniminuto_28
+  - first:
+      213: 6502858950803535586
+    second: LogoUniminuto_29
+  - first:
+      213: -7653663507571963238
+    second: LogoUniminuto_30
+  - first:
+      213: 55113635932249141
+    second: LogoUniminuto_31
+  - first:
+      213: 6520695040745483789
+    second: LogoUniminuto_32
+  - first:
+      213: 4032086643890968881
+    second: LogoUniminuto_33
+  - first:
+      213: -8996070485007320570
+    second: LogoUniminuto_34
+  - first:
+      213: -3947947503981414014
+    second: LogoUniminuto_35
+  - first:
+      213: -649234532485737775
+    second: LogoUniminuto_36
+  - first:
+      213: 1115295198010485642
+    second: LogoUniminuto_37
+  - first:
+      213: 1441373294767659081
+    second: LogoUniminuto_38
+  - first:
+      213: 4327819467714821804
+    second: LogoUniminuto_39
+  - first:
+      213: -6226981414127114580
+    second: LogoUniminuto_40
+  - first:
+      213: -8043982911939273770
+    second: LogoUniminuto_41
+  - first:
+      213: 507914777406308129
+    second: LogoUniminuto_42
+  - first:
+      213: 5239144101967322655
+    second: LogoUniminuto_43
+  - first:
+      213: -844125064923935964
+    second: LogoUniminuto_44
+  - first:
+      213: -5602199487387611198
+    second: LogoUniminuto_45
+  - first:
+      213: 6417715681863761766
+    second: LogoUniminuto_46
+  - first:
+      213: 7217025477470760482
+    second: LogoUniminuto_47
+  - first:
+      213: -5873068974616399585
+    second: LogoUniminuto_48
+  - first:
+      213: 8819145621291504665
+    second: LogoUniminuto_49
+  - first:
+      213: 7316156738529475397
+    second: LogoUniminuto_50
+  - first:
+      213: -8401232990105179642
+    second: LogoUniminuto_51
+  - first:
+      213: 1343298589582768542
+    second: LogoUniminuto_52
+  - first:
+      213: -2596395049009604700
+    second: LogoUniminuto_53
+  - first:
+      213: -9173485188479281345
+    second: LogoUniminuto_54
+  - first:
+      213: 5164460208498516121
+    second: LogoUniminuto_55
+  - first:
+      213: -4147305817236220050
+    second: LogoUniminuto_56
+  - first:
+      213: 5414396679753250475
+    second: LogoUniminuto_57
+  - first:
+      213: 5003324878834427655
+    second: LogoUniminuto_58
+  - first:
+      213: -581447539422824618
+    second: LogoUniminuto_59
+  - first:
+      213: 6548753906005506164
+    second: LogoUniminuto_60
+  - first:
+      213: -1164700391061516723
+    second: LogoUniminuto_61
+  - first:
+      213: 3229552892600888866
+    second: LogoUniminuto_62
+  - first:
+      213: 1413059982612921839
+    second: LogoUniminuto_63
+  - first:
+      213: -2817886253549520883
+    second: LogoUniminuto_64
+  - first:
+      213: -3244596649259762321
+    second: LogoUniminuto_65
+  - first:
+      213: 4023862348307618944
+    second: LogoUniminuto_66
+  - first:
+      213: 3422100847398118772
+    second: LogoUniminuto_67
+  - first:
+      213: -2692746857072150263
+    second: LogoUniminuto_68
+  - first:
+      213: 6666632890193375666
+    second: LogoUniminuto_69
+  - first:
+      213: -6215563225258096724
+    second: LogoUniminuto_70
+  - first:
+      213: 938450701328322169
+    second: LogoUniminuto_71
+  - first:
+      213: -5774555189586456317
+    second: LogoUniminuto_72
+  - first:
+      213: 381993268160188530
+    second: LogoUniminuto_73
+  - first:
+      213: -8575880502996010697
+    second: LogoUniminuto_74
+  - first:
+      213: 3839649399800354732
+    second: LogoUniminuto_75
+  - first:
+      213: -4455397509827581355
+    second: LogoUniminuto_76
+  - first:
+      213: 1912945693100006802
+    second: LogoUniminuto_77
+  - first:
+      213: 1951053554680349617
+    second: LogoUniminuto_78
+  - first:
+      213: -8959496467304887687
+    second: LogoUniminuto_79
+  - first:
+      213: 6597442984845304202
+    second: LogoUniminuto_80
+  - first:
+      213: 6802052005319246538
+    second: LogoUniminuto_81
+  - first:
+      213: -1267172326562628247
+    second: LogoUniminuto_82
+  - first:
+      213: 3537613934004633496
+    second: LogoUniminuto_83
+  - first:
+      213: -4903802431239674767
+    second: LogoUniminuto_84
+  - first:
+      213: 8018687117082006500
+    second: LogoUniminuto_85
+  - first:
+      213: -5036950861817771720
+    second: LogoUniminuto_86
+  - first:
+      213: -1994327014876664116
+    second: LogoUniminuto_87
+  - first:
+      213: 5034183790964879145
+    second: LogoUniminuto_88
+  - first:
+      213: -5854363034505044475
+    second: LogoUniminuto_89
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LogoUniminuto_0
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 402
+        width: 628
+        height: 903
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b1383b625052b180800000000000000
+      internalID: -9101123582045965901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 195
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 986f6d9327eda1040800000000000000
+      internalID: 4619248949999892105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_2
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 219
+        width: 215
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adc6df7223c4c22a0800000000000000
+      internalID: -6760945162286961446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_3
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 219
+        width: 62
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc419ee8ed4fa970800000000000000
+      internalID: 8768312662343896316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_4
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 219
+        width: 266
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d421412bede0a3cd0800000000000000
+      internalID: -2577731487082999219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_5
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 219
+        width: 63
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99719e4fd9e472f90800000000000000
+      internalID: -6978522657261545575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_6
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 219
+        width: 214
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde71286bbac455c0800000000000000
+      internalID: -4227531243939332387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_7
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 216
+        width: 196
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73c070f17dcaeb430800000000000000
+      internalID: 3800665175485778999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_8
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 219
+        width: 159
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d8d630105031e720800000000000000
+      internalID: 2873631157666633945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_9
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 216
+        width: 233
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4defe24cb2cace030800000000000000
+      internalID: 3525381912299241172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 69
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c0daece9ae13630800000000000000
+      internalID: 3905160319700110461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_11
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 170
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 995e8614b9a305880800000000000000
+      internalID: -8624328847922764391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_12
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 171
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75273e50735ea1940800000000000000
+      internalID: 5267774738647970391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_13
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 111
+        width: 67
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99e5f1fe934175f00800000000000000
+      internalID: 1105374472600247961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_14
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 170
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88760f11f837736e0800000000000000
+      internalID: -1857889262948554872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_15
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 170
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d821f02ed3842a460800000000000000
+      internalID: 7251437780642763405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_16
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 111
+        width: 39
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da4eaa5a430ffcc10800000000000000
+      internalID: 2076142062149493933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_17
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 170
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5369f03120028c020800000000000000
+      internalID: 2362173197837637173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_18
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 112
+        width: 72
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a29c4b3738e6820800000000000000
+      internalID: 2913410541932849756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_19
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 170
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703950de62eed83c0800000000000000
+      internalID: -4355563413644668153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_20
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 111
+        width: 40
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e9a2b10baa1587f0800000000000000
+      internalID: -611052852668618271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_21
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 112
+        width: 48
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9607a20a8e10740800000000000000
+      internalID: 5116626426274015667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_22
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 112
+        width: 72
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f04353f9fa734ff90800000000000000
+      internalID: -6920845499931741169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_23
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 170
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf146849de7e77c0800000000000000
+      internalID: -4071677541408825397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_24
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 111
+        width: 55
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 213826dad25e12420800000000000000
+      internalID: 2603614043942060818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_25
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 112
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 977b0f0c7578d7b20800000000000000
+      internalID: 3133809726688638841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_26
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 87
+        width: 47
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 801495f345390d240800000000000000
+      internalID: 4814509991708410120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_27
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 111
+        width: 55
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf1d2c9e16f115d0800000000000000
+      internalID: -3093420857697165369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_28
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 112
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2c62ff5a5e23ae40800000000000000
+      internalID: 5666423721853873197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_29
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 111
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e63d1b13cbce3a50800000000000000
+      internalID: 6502858950803535586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_30
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 111
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a8dc83799b8c590800000000000000
+      internalID: -7653663507571963238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_31
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 112
+        width: 13
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c95045f8dc3c000800000000000000
+      internalID: 55113635932249141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_32
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 111
+        width: 55
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e294867992e7a50800000000000000
+      internalID: 6520695040745483789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_33
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 112
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139d7b09079d4f730800000000000000
+      internalID: 4032086643890968881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_34
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 112
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a33ce9e89872380800000000000000
+      internalID: -8996070485007320570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_35
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 112
+        width: 13
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2893c4989a21639c0800000000000000
+      internalID: -3947947503981414014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_36
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 111
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d2554be1a47df6f0800000000000000
+      internalID: -649234532485737775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_37
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 111
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b2d11d2135a7f00800000000000000
+      internalID: 1115295198010485642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_38
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 112
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9485c57ff59c00410800000000000000
+      internalID: 1441373294767659081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_39
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 111
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae792940e08f0c30800000000000000
+      internalID: 4327819467714821804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_40
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 112
+        width: 12
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca66ef355615599a0800000000000000
+      internalID: -6226981414127114580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_41
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 111
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db1c8219280e5090800000000000000
+      internalID: -8043982911939273770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_42
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 112
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f797b8cc97c0700800000000000000
+      internalID: 507914777406308129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_43
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 112
+        width: 13
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e58d47dcd25b840800000000000000
+      internalID: 5239144101967322655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_44
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 111
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b843fc9b01944f0800000000000000
+      internalID: -844125064923935964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_45
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 112
+        width: 13
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cfc2697f3df042b0800000000000000
+      internalID: -5602199487387611198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_46
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 112
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f71fef86e401950800000000000000
+      internalID: 6417715681863761766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_47
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 111
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ea69f2f66082460800000000000000
+      internalID: 7217025477470760482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_48
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 111
+        width: 55
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f113f9a62eaae7ea0800000000000000
+      internalID: -5873068974616399585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_49
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 111
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 914958b7736e36a70800000000000000
+      internalID: 8819145621291504665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_50
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 112
+        width: 13
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b31218ac5388560800000000000000
+      internalID: 7316156738529475397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_51
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 111
+        width: 55
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60aec7d6b13d86b80800000000000000
+      internalID: -8401232990105179642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_52
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 111
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e993d5b33fa54a210800000000000000
+      internalID: 1343298589582768542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_53
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 0
+        width: 53
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7133f8570c7fbd0800000000000000
+      internalID: -2596395049009604700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_54
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 56
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37926403db31b080800000000000000
+      internalID: -9173485188479281345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_55
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 56
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 990a1387239dba740800000000000000
+      internalID: 5164460208498516121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_56
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 54
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6759b4255fc176c0800000000000000
+      internalID: -4147305817236220050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_57
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 0
+        width: 56
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba63fb1f71dc32b40800000000000000
+      internalID: 5414396679753250475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_58
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 0
+        width: 58
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 707ecc2f7716f6540800000000000000
+      internalID: 5003324878834427655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_59
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 0
+        width: 19
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6577d252b884ee7f0800000000000000
+      internalID: -581447539422824618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_60
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 56
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 478f8e01bf8d1ea50800000000000000
+      internalID: 6548753906005506164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_61
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 0
+        width: 55
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e05094a2726dfe0800000000000000
+      internalID: -1164700391061516723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_62
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 0
+        width: 56
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22eafc2be3da1dc20800000000000000
+      internalID: 3229552892600888866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_63
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 0
+        width: 19
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed76f541923c9310800000000000000
+      internalID: 1413059982612921839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_64
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 0
+        width: 20
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0879b7d16bd4e8d0800000000000000
+      internalID: -2817886253549520883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_65
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 0
+        width: 55
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6df271c980e8f2d0800000000000000
+      internalID: -3244596649259762321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_66
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 0
+        width: 35
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08cd1f78c71a7d730800000000000000
+      internalID: 4023862348307618944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_67
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 0
+        width: 56
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4756ab2f69ebd7f20800000000000000
+      internalID: 3422100847398118772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_68
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 0
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9093a22100171aad0800000000000000
+      internalID: -2692746857072150263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_69
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 0
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b179e3da43a48c50800000000000000
+      internalID: 6666632890193375666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_70
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 0
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca782879d22edb9a0800000000000000
+      internalID: -6215563225258096724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_71
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 0
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e04e3d0fb060d00800000000000000
+      internalID: 938450701328322169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_72
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 0
+        width: 19
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3019fc466a8acdfa0800000000000000
+      internalID: -5774555189586456317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_73
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 0
+        width: 55
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270574f7adc1d4500800000000000000
+      internalID: 381993268160188530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_74
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 0
+        width: 55
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73979b69e1a5cf880800000000000000
+      internalID: -8575880502996010697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_75
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 0
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7542929cc294530800000000000000
+      internalID: 3839649399800354732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_76
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 0
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55a219d029f3b22c0800000000000000
+      internalID: -4455397509827581355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_77
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 0
+        width: 19
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29dd6dff8f52c8a10800000000000000
+      internalID: 1912945693100006802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_78
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 0
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b34c70fed8831b10800000000000000
+      internalID: 1951053554680349617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_79
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 0
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97acce3be6979a380800000000000000
+      internalID: -8959496467304887687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_80
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 0
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a81e891a073de8b50800000000000000
+      internalID: 6597442984845304202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_81
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 0
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac289c0924eb56e50800000000000000
+      internalID: 6802052005319246538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_82
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 0
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d77069b791a6ee0800000000000000
+      internalID: -1267172326562628247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_83
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 0
+        width: 55
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f71d04121281130800000000000000
+      internalID: 3537613934004633496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_84
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 0
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17423459ba132fbb0800000000000000
+      internalID: -4903802431239674767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_85
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 0
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e39caab279184f60800000000000000
+      internalID: 8018687117082006500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_86
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 0
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 839014ac0e7291ab0800000000000000
+      internalID: -5036950861817771720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_87
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 0
+        width: 55
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cceaf48752ab254e0800000000000000
+      internalID: -1994327014876664116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_88
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 0
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92fad725c730dd540800000000000000
+      internalID: 5034183790964879145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoUniminuto_89
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 0
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e162e76df11cea0800000000000000
+      internalID: -5854363034505044475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LogoUniminuto_0: -9101123582045965901
+      LogoUniminuto_1: 4619248949999892105
+      LogoUniminuto_10: 3905160319700110461
+      LogoUniminuto_11: -8624328847922764391
+      LogoUniminuto_12: 5267774738647970391
+      LogoUniminuto_13: 1105374472600247961
+      LogoUniminuto_14: -1857889262948554872
+      LogoUniminuto_15: 7251437780642763405
+      LogoUniminuto_16: 2076142062149493933
+      LogoUniminuto_17: 2362173197837637173
+      LogoUniminuto_18: 2913410541932849756
+      LogoUniminuto_19: -4355563413644668153
+      LogoUniminuto_2: -6760945162286961446
+      LogoUniminuto_20: -611052852668618271
+      LogoUniminuto_21: 5116626426274015667
+      LogoUniminuto_22: -6920845499931741169
+      LogoUniminuto_23: -4071677541408825397
+      LogoUniminuto_24: 2603614043942060818
+      LogoUniminuto_25: 3133809726688638841
+      LogoUniminuto_26: 4814509991708410120
+      LogoUniminuto_27: -3093420857697165369
+      LogoUniminuto_28: 5666423721853873197
+      LogoUniminuto_29: 6502858950803535586
+      LogoUniminuto_3: 8768312662343896316
+      LogoUniminuto_30: -7653663507571963238
+      LogoUniminuto_31: 55113635932249141
+      LogoUniminuto_32: 6520695040745483789
+      LogoUniminuto_33: 4032086643890968881
+      LogoUniminuto_34: -8996070485007320570
+      LogoUniminuto_35: -3947947503981414014
+      LogoUniminuto_36: -649234532485737775
+      LogoUniminuto_37: 1115295198010485642
+      LogoUniminuto_38: 1441373294767659081
+      LogoUniminuto_39: 4327819467714821804
+      LogoUniminuto_4: -2577731487082999219
+      LogoUniminuto_40: -6226981414127114580
+      LogoUniminuto_41: -8043982911939273770
+      LogoUniminuto_42: 507914777406308129
+      LogoUniminuto_43: 5239144101967322655
+      LogoUniminuto_44: -844125064923935964
+      LogoUniminuto_45: -5602199487387611198
+      LogoUniminuto_46: 6417715681863761766
+      LogoUniminuto_47: 7217025477470760482
+      LogoUniminuto_48: -5873068974616399585
+      LogoUniminuto_49: 8819145621291504665
+      LogoUniminuto_5: -6978522657261545575
+      LogoUniminuto_50: 7316156738529475397
+      LogoUniminuto_51: -8401232990105179642
+      LogoUniminuto_52: 1343298589582768542
+      LogoUniminuto_53: -2596395049009604700
+      LogoUniminuto_54: -9173485188479281345
+      LogoUniminuto_55: 5164460208498516121
+      LogoUniminuto_56: -4147305817236220050
+      LogoUniminuto_57: 5414396679753250475
+      LogoUniminuto_58: 5003324878834427655
+      LogoUniminuto_59: -581447539422824618
+      LogoUniminuto_6: -4227531243939332387
+      LogoUniminuto_60: 6548753906005506164
+      LogoUniminuto_61: -1164700391061516723
+      LogoUniminuto_62: 3229552892600888866
+      LogoUniminuto_63: 1413059982612921839
+      LogoUniminuto_64: -2817886253549520883
+      LogoUniminuto_65: -3244596649259762321
+      LogoUniminuto_66: 4023862348307618944
+      LogoUniminuto_67: 3422100847398118772
+      LogoUniminuto_68: -2692746857072150263
+      LogoUniminuto_69: 6666632890193375666
+      LogoUniminuto_7: 3800665175485778999
+      LogoUniminuto_70: -6215563225258096724
+      LogoUniminuto_71: 938450701328322169
+      LogoUniminuto_72: -5774555189586456317
+      LogoUniminuto_73: 381993268160188530
+      LogoUniminuto_74: -8575880502996010697
+      LogoUniminuto_75: 3839649399800354732
+      LogoUniminuto_76: -4455397509827581355
+      LogoUniminuto_77: 1912945693100006802
+      LogoUniminuto_78: 1951053554680349617
+      LogoUniminuto_79: -8959496467304887687
+      LogoUniminuto_8: 2873631157666633945
+      LogoUniminuto_80: 6597442984845304202
+      LogoUniminuto_81: 6802052005319246538
+      LogoUniminuto_82: -1267172326562628247
+      LogoUniminuto_83: 3537613934004633496
+      LogoUniminuto_84: -4903802431239674767
+      LogoUniminuto_85: 8018687117082006500
+      LogoUniminuto_86: -5036950861817771720
+      LogoUniminuto_87: -1994327014876664116
+      LogoUniminuto_88: 5034183790964879145
+      LogoUniminuto_89: -5854363034505044475
+      LogoUniminuto_9: 3525381912299241172
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
