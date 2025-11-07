@@ -90,7 +90,8 @@ public class GestorDatos : MonoBehaviour
 
         datos = new DatosJugador();
         // Solo personaje inicial desbloqueado
-        datos.personajesDesbloqueados.Add("VENECOS");
+        datos.personajesDesbloqueados.Add("FidelCastro-Cuba, SalvadorAllende-Chile, AlanGarcia-Peru, HugoChavez-Venezuela," +
+            " JuanPeron-Argentina, GetulioVargas-Brasil, JoseMujica-Uruguay, EmmanuelMacron-Francia");
         Guardar();
     }
 

@@ -2,6 +2,7 @@ using UnityEngine;
 using System;
 
 [RequireComponent(typeof(Animator))]
+[RequireComponent(typeof(AudioSource))]
 public class Luchador : MonoBehaviour
 {
     public string nombre;
@@ -11,6 +12,14 @@ public class Luchador : MonoBehaviour
     public Animator animator;
     private bool muerto = false;
 
+    [Header("Sonidos del Luchador")]
+    public AudioClip sonidoGolpe;
+    public AudioClip sonidoAtaque;
+    public AudioClip sonidoMuerte;
+    public AudioClip sonidoPaso;
+
+    private AudioSource audioSrc;
+
     // Eventos
     public event Action<Luchador> OnDeath;
     public event Action<int, int> OnHealthChanged; // current, max
@@ -19,6 +28,13 @@ public class Luchador : MonoBehaviour
     {
         vidaActual = vidaMax;
         if (animator == null) animator = GetComponent<Animator>();
+        audioSrc = GetComponent<AudioSource>();
+    }
+
+    public void ReproducirSonido(AudioClip clip)
+    {
+        if (clip != null && audioSrc != null)
+            audioSrc.PlayOneShot(clip);
     }
 
     public void RecibirDanio(int cantidad)
@@ -35,11 +51,17 @@ public class Luchador : MonoBehaviour
             animator.ResetTrigger("Hit");   // evita que se quede pegado
             animator.SetTrigger("Hit");
         }
+        ReproducirSonido(sonidoGolpe);
 
         if (vidaActual == 0)
             Morir();
     }
 
+    public void RealizarAtaque()
+    {
+        if (animator != null) animator.SetTrigger("Atacar");
+        ReproducirSonido(sonidoAtaque);
+    }
 
     void Morir()
     {
@@ -53,6 +75,8 @@ public class Luchador : MonoBehaviour
             animator.SetBool("Correr", false);
             animator.SetTrigger("Morir");
         }
+        ReproducirSonido(sonidoMuerte);
+
 
         //Desactivar colisiones y físicas
         var col = GetComponent<Collider2D>();
@@ -72,4 +96,10 @@ public class Luchador : MonoBehaviour
 
 
     public bool EstaVivo() => !muerto;
+
+    public void SonidoPaso()
+    {
+        if (!muerto) ReproducirSonido(sonidoPaso);
+    }
+
 }
